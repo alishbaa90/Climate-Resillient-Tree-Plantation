@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Assistant - Tree Plantation</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
 <style>
 :root{--bg:#1c1814;--nav:#08382a;--panel:#26201a;--bub:#6b5a43;--ink:#f3ece1;--mute:#c8bba8;--acc:#5be37d;--btn:#16845f;--line:#4a3d2f;--warn:#f2c06b;--bad:#f2a28d}
 *{box-sizing:border-box}
@@ -76,7 +77,7 @@ form input{flex:1;padding:12px 15px;border-radius:12px;border:1px solid #6d5f4c;
 
 const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
-const API = "http://127.0.0.1:8000";
+const API = window.TREE_API;
 const LOGIN_PAGE = "login.html";
 
 const $ = s => document.querySelector(s);
@@ -90,7 +91,7 @@ let token = null, convId = null, busy = false;
 async function api(path, opt = {}) {
   let r;
   try { r = await fetch(API + path, { ...opt, headers: { "Content-Type": "application/json", Authorization: "Bearer " + token } }); }
-  catch (e) { throw new Error("The server is not reachable. Start it with: py -m uvicorn main:app --reload"); }
+  catch (e) { throw new Error("The server is not reachable. It may be waking up (this can take about a minute). Please try again shortly."); }
   const d = await r.json().catch(() => ({}));
   if (r.status === 401) { location.href = LOGIN_PAGE; throw new Error("Please sign in again."); }
   if (!r.ok) throw new Error((d.detail && d.detail.message) || "Request failed (" + r.status + ")");

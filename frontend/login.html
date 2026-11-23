@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sign in - AI-Based Tree Plantation System</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
 <style>
 :root{--ink:#f3ece1;--mute:#c8bba8;--dark:#1c1814;--field:#241e18;--line:#5a4d3d;--btn:#16845f;--bad:#f2a28d}
 *{box-sizing:border-box}
@@ -85,6 +86,9 @@ const NEXT_PAGE = "home.html";
 const $ = s => document.querySelector(s);
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 let mode = "signin";
+
+// Wake the free Render server now, so it is ready by the time the person signs in.
+window.wakeApi();
 
 function say(text, kind) { const m = $("#msg"); m.textContent = text; m.className = kind || ""; }
 function goNext() { location.href = new URL(NEXT_PAGE, location.href).href; }

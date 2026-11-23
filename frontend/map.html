@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
 <style>
 :root{--bg:#1c1814;--nav:#08382a;--panel:#26201a;--bub:#6b5a43;--ink:#f3ece1;--mute:#c8bba8;--acc:#5be37d;--btn:#16845f;--line:#4a3d2f;--warn:#f2c06b;--bad:#f2a28d}
 *{box-sizing:border-box}
@@ -52,8 +53,8 @@ h1{margin:0 0 4px;font-size:26px}
   <a class="tab" href="assistant.html">AI Assistant</a>
   <a class="tab on" href="map.html" aria-current="page">Map Explorer</a>
   <a class="tab" href="species.html">Tree Species</a>
-  <a class="tab" href="index.html#sources">Knowledge Sources</a>
-  <a class="tab" href="index.html#about">About</a>
+  <a class="tab" href="sources.html">Knowledge Sources</a>
+  <a class="tab" href="about.html">About</a>
   <span class="sp"></span>
   <button class="ghost" id="signout" type="button">Sign out</button>
 </nav>
@@ -78,7 +79,7 @@ h1{margin:0 0 4px;font-size:26px}
 <script>
 const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
-const API = "http://127.0.0.1:8000";
+const API = window.TREE_API;
 const LOGIN_PAGE = "login.html";
 const MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
 const TIMEOUT_MS = { climate: 45000, soil: 65000 };
@@ -97,7 +98,7 @@ async function api(path, opt = {}) {
   try { r = await fetch(API + path, { ...opt, headers: { Authorization: "Bearer " + token } }); }
   catch (e) {
     if (e.name === "AbortError") throw new Error("The request took too long. Please try again.");
-    throw new Error("The server is not reachable. Start it with: py -m uvicorn main:app");
+    throw new Error("The server is not reachable. It may be waking up (this can take about a minute). Please try again shortly.");
   }
   const d = await r.json().catch(() => ({}));
   if (r.status === 401) { location.href = LOGIN_PAGE; throw new Error("Please sign in again."); }
