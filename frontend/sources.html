@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Knowledge Sources - Tree Plantation</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<style>
+:root{--bg:#1c1814;--nav:#08382a;--panel:#26201a;--ink:#f3ece1;--mute:#c8bba8;--acc:#5be37d;--btn:#16845f;--line:#4a3d2f}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--ink);font:15px/1.6 "Segoe UI",system-ui,sans-serif}
+nav{background:var(--nav);display:flex;align-items:center;gap:4px;padding:12px 28px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;margin-right:22px;color:#fff;text-decoration:none}
+.brand svg{width:26px;height:26px}
+nav a.tab{color:#d6efe3;text-decoration:none;padding:7px 13px;border-radius:9px}
+nav a.tab.on{background:rgba(255,255,255,.16);color:#fff}
+nav .sp{flex:1}
+button{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:9px 16px;background:var(--btn);color:#fff}
+button.ghost{background:transparent;border:1px solid #8a7b66;color:var(--ink)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+main{flex:1;max-width:980px;width:100%;margin:0 auto;padding:22px 28px 36px}
+h1{margin:0 0 6px;font-size:28px}
+h2{margin:0 0 4px;font-size:19px}
+.lead{color:var(--mute);margin:0 0 20px}
+.doc{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+.cite{color:var(--mute);font-size:14px;margin:0 0 10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.chip{font-size:12.5px;padding:2px 10px;border-radius:99px;background:#3a3026}
+.chip.scope{background:#2f6f4f}
+.doc dl{margin:0;display:grid;grid-template-columns:150px 1fr;gap:6px 14px;font-size:14.5px}
+.doc dt{color:var(--mute)}
+.doc dd{margin:0}
+.limits{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-top:22px}
+.limits ul{margin:8px 0 0;padding-left:20px}
+.limits li{margin:5px 0}
+.note{font-size:13px;color:var(--mute);margin:14px 0 0}
+@media(max-width:700px){main{padding:14px}.doc dl{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <a class="brand" href="home.html"><svg viewBox="0 0 24 24" fill="none" stroke="#5be37d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7z"/></svg>Tree Plantation</a>
+  <a class="tab" href="home.html">Home</a>
+  <a class="tab" href="assistant.html">AI Assistant</a>
+  <a class="tab" href="map.html">Map Explorer</a>
+  <a class="tab" href="species.html">Tree Species</a>
+  <a class="tab on" href="sources.html" aria-current="page">Knowledge Sources</a>
+  <a class="tab" href="about.html">About</a>
+  <span class="sp"></span>
+  <button class="ghost" id="signout" type="button">Sign out</button>
+</nav>
+
+<main>
+  <h1>Knowledge Sources</h1>
+  <p class="lead">The assistant answers only from these three documents (121 indexed passages in total). Page numbers in answers are the page numbers of the indexed PDF files.</p>
+
+  <article class="doc">
+    <h2>National tree-planting guideline</h2>
+    <p class="cite">Guidelines and Lists of Suitable Tree Species for Plantation in Different Silvo-Ecological Zones of Pakistan (2023). Ministry of Climate Change and Environmental Coordination, Government of Pakistan.</p>
+    <div class="chips"><span class="chip scope">Pakistan-wide guideline</span><span class="chip">Guideline</span><span class="chip">66 passages</span></div>
+    <dl>
+      <dt>What it contains</dt><dd>General planting guidance, species lists for the silvo-ecological zones of each province, urban landscaping tables, and annexes on bird food and pollinators and on saline and waterlogged soils.</dd>
+      <dt>Parts used most</dt><dd>Sindh zone tables (pages 46-48), urban landscaping tables (pages 64-75), Annex 2 (page 76), Annex 3 (page 77).</dd>
+      <dt>Reach</dt><dd>It is not specific to Thatta. The Sindh section gives six zones for the province and does not say which zone Thatta belongs to.</dd>
+    </dl>
+  </article>
+
+  <article class="doc">
+    <h2>Halophyte survey in District Thatta</h2>
+    <p class="cite">Kaleri et al. (2017). Distribution of Halophyte Plants in Relation to Properties of Salt-Affected Soils of District Thatta. Journal of Basic &amp; Applied Sciences, 13, 85-90.</p>
+    <div class="chips"><span class="chip scope">Measured in District Thatta</span><span class="chip">Field survey</span><span class="chip">34 passages</span></div>
+    <dl>
+      <dt>What it contains</dt><dd>Soil analyses (EC, pH, organic matter, ions) from salt-affected sites in Thatta, with the halophyte plants collected there and their ion contents.</dd>
+      <dt>How answers treat it</dt><dd>As measurements. It is a survey of which plants grew where, not a planting recommendation or a tolerance rating.</dd>
+    </dl>
+  </article>
+
+  <article class="doc">
+    <h2>Salinity and drought experiments on Thar species</h2>
+    <p class="cite">Rajpar et al. (2018). Salinity and Drought Stress Tolerance of Some Plant Species of Thar Desert, Pakistan. Pakistan Journal of Botany, 50(2), 465-469.</p>
+    <div class="chips"><span class="chip scope">Sindh region, not necessarily Thatta</span><span class="chip">Pot experiments</span><span class="chip">21 passages</span></div>
+    <dl>
+      <dt>What it contains</dt><dd>Controlled pot experiments on seedlings of four indigenous Thar species (Kandi, Kumbhat, Jar and Rohira) under salinity and under drought.</dd>
+      <dt>How answers treat it</dt><dd>As a study of which species were tested and how they ranked, not as a planting recommendation. Salinity and drought rankings are reported separately.</dd>
+    </dl>
+  </article>
+
+  <section class="limits">
+    <h2>What the documents do not say</h2>
+    <ul>
+      <li>Which silvo-ecological zone Thatta belongs to. The guideline does not mention Thatta, so the assistant answers "Evidence unavailable" or "Partial evidence" for such questions.</li>
+      <li>Numeric salinity limits for the Low, Medium and High levels in Annex 3. A Low level does not mean a species is unsuitable.</li>
+      <li>Planting recommendations for Thatta from the two research papers. They describe a survey and pot experiments.</li>
+    </ul>
+    <p class="note">A Punjab Forest Department species list was collected earlier but is not used for Thatta answers. Passage counts are as of the last time the knowledge base was built.</p>
+  </section>
+</main>
+
+<script>
+const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
+const LOGIN_PAGE = "login.html";
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+document.getElementById("signout").onclick = async () => { await sb.auth.signOut(); location.href = LOGIN_PAGE; };
+(async () => {
+  const { data } = await sb.auth.getSession();
+  if (!data.session) location.href = LOGIN_PAGE;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "1": {"expect": "answer", "must_include": ["Ficus benghalensis|Ficus bengalensis|Burr|Bohrr", "Ficus microcarpa|Indian Laurel", "Ficus racemosa|Gular", "Ficus religiosa|Pipal", "Ficus virens|Pilkan"], "must_exclude": ["Ficus carica", "Ficus retusa"]},
+  "2": {"expect": "answer", "must_include": ["90%", "one third|1/3|a third", "bees", "butterflies", "moths", "beetles", "flies", "birds", "bats"]},
+  "3": {"expect": "answer", "must_include": ["large evergreen|large trees", "outer row", "inner row"]},
+  "4": {"expect": "answer", "must_include": ["Carissa opaca", "Ziziphus mauritiana", "Syzygium cumini", "Elaeagnus angustifolia"], "must_exclude": ["Ficus carica", "Bombax ceiba"]},
+  "5": {"expect": "answer", "must_include": ["Guiacum officinale|Guaiacum officinale|Lignum", "Thespesia populnea|Portia"], "must_exclude": ["Delonix regia"]},
+  "6": {"expect": "answer", "must_include": ["2 percent|2-percent|2%", "3 percent|3-percent|3%"]},
+  "7": {"expect": "answer", "must_include": ["3.7", "6.9", "5.6", "Sueda fruticosa|Suaeda fruticosa", "Chenopodium album|Chenopodum album"]},
+  "8": {"expect": "answer", "must_include": ["0.7", "1.9", "1.26", "Chenopodium album|Chenopodum album", "Sueda fruticosa|Suaeda fruticosa"]},
+  "9": {"expect": "answer", "must_include": ["17.3", "33.3", "26.4", "Tamarix aphylla"]},
+  "10": {"expect": "answer", "must_include": ["25", "70"]},
+  "11": {"expect": "answer", "must_include": ["sodium|Na", "potassium|K", "increase|increased|increases|increasing|higher|enhanced", "decrease|decreased|decreases|decreasing|reduced|reduction|lower"]},
+  "12": {"expect": "answer", "must_include": ["overhead", "mature", "height"]},
+  "13": {"expect": "partial", "must_include": ["Sueda fruticosa|Suaeda fruticosa", "accumulate|accumulated|accumulates|accumulation"]},
+  "14": {"expect": "partial", "must_include": ["texture", "pH"]},
+  "15": {"expect": "partial", "must_include": ["Conocarpus"]},
+  "16": {"expect": "unavailable", "accept": ["unavailable", "partial"]},
+  "17": {"expect": "unavailable"},
+  "18": {"expect": "unavailable"},
+  "19": {"expect": "unavailable"},
+  "20": {"expect": "unavailable", "accept": ["unavailable", "partial"]}
+}

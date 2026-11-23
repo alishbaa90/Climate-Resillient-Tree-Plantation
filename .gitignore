@@ -1,0 +1,12 @@
+.env
+.token
+*.env
+venv/
+__pycache__/
+*.pyc
+*.pdf
+tree-rag/chunk_overview.txt
+tree-rag/chunk_tables.txt
+tree-rag/chunk_text.txt
+tree-rag/keyword_checks.txt
+*.zip

@@ -1,0 +1,1784 @@
+[
+  {
+    "id": 1,
+    "question": "Which tree species are listed as able to grow in saline and waterlogged soils?",
+    "label": "answerable",
+    "top_score": 0.75922543,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p6",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "silvo_ecological_zones_2023.pdf p47"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which trees have high salinity tolerance?",
+    "label": "answerable",
+    "top_score": 0.4605315,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p3"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which trees have low salinity tolerance?",
+    "label": "answerable",
+    "top_score": 0.57654196,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p3"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which trees have medium salinity tolerance?",
+    "label": "answerable",
+    "top_score": 0.5406813,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the salinity tolerance of Neem?",
+    "label": "answerable",
+    "top_score": 0.51635164,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p2"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is the salinity tolerance of Tamarix aphylla (Farash)?",
+    "label": "answerable",
+    "top_score": 0.46441576,
+    "scores": {
+      "dense": {
+        "recall": 0.0,
+        "hit": 0.0,
+        "mrr": 0.0,
+        "precision": 0.0,
+        "first_hit": null
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 0.0,
+        "hit": 0.0,
+        "mrr": 0.0,
+        "precision": 0.0,
+        "first_hit": null
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "thatta_halophytes_kaleri_2017.pdf p6",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Which exotic species are listed for saline soils?",
+    "label": "answerable",
+    "top_score": 0.58794308,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p77",
+      "thatta_halophytes_kaleri_2017.pdf p6",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "silvo_ecological_zones_2023.pdf p17",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "silvo_ecological_zones_2023.pdf p17",
+      "thatta_halophytes_kaleri_2017.pdf p3"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the local name of Faidherbia albida?",
+    "label": "partial",
+    "top_score": 0.36568317,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.3,
+        "first_hit": 3
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p14",
+      "silvo_ecological_zones_2023.pdf p76",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p69",
+      "silvo_ecological_zones_2023.pdf p65",
+      "silvo_ecological_zones_2023.pdf p74"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "How should saplings be planted to reduce the effect of high salinity?",
+    "label": "answerable",
+    "top_score": 0.63068497,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p17",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "silvo_ecological_zones_2023.pdf p17",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p3"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How are trees planted on waterlogged areas?",
+    "label": "answerable",
+    "top_score": 0.65665823,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p6",
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p15",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "silvo_ecological_zones_2023.pdf p12",
+      "silvo_ecological_zones_2023.pdf p12"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Is Shisham suitable for Sindh?",
+    "label": "answerable",
+    "top_score": 0.58320338,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.2,
+        "first_hit": 3
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p69",
+      "silvo_ecological_zones_2023.pdf p4",
+      "silvo_ecological_zones_2023.pdf p5"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which species are main species in the Subtropical Semi-Arid Hills zone in Sindh?",
+    "label": "answerable",
+    "top_score": 0.71701187,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.2,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p69",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p70"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Which species are main species in the Subtropical Irrigated Plains (Perennial) zone in Sindh?",
+    "label": "answerable",
+    "top_score": 0.74761593,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.2,
+        "first_hit": 3
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.2,
+        "first_hit": 3
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.2,
+        "first_hit": 2
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p69",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "silvo_ecological_zones_2023.pdf p66"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Which species are main species in the Subtropical Irrigated Plains (Non-Perennial) zone in Sindh?",
+    "label": "answerable",
+    "top_score": 0.77999288,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p69",
+      "silvo_ecological_zones_2023.pdf p74",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "silvo_ecological_zones_2023.pdf p70"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Which species are listed for the Subtropical Arid Desert zone in Sindh?",
+    "label": "answerable",
+    "top_score": 0.72642559,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p74",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "silvo_ecological_zones_2023.pdf p73",
+      "thar_salinity_drought_rajpar_2018.pdf p4"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Which species are listed for the Subtropical Riverine Arid Flood Plains zones in Sindh?",
+    "label": "answerable",
+    "top_score": 0.79053032,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p69",
+      "silvo_ecological_zones_2023.pdf p70",
+      "silvo_ecological_zones_2023.pdf p72"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Is Neem a main species in any ecological zone of Sindh?",
+    "label": "answerable",
+    "top_score": 0.72017151,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p64",
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p72"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Which exotic species are listed for the Subtropical Semi-Arid Hills zone in Sindh?",
+    "label": "answerable",
+    "top_score": 0.77184349,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p69",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p76",
+      "silvo_ecological_zones_2023.pdf p66"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What are the local names of Salvadora oleoides in the Sindh zone tables?",
+    "label": "answerable",
+    "top_score": 0.68341953,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.2,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.2,
+        "first_hit": 3
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.2,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.3,
+        "first_hit": 3
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p69"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What is the soil EC in Thatta?",
+    "label": "answerable",
+    "top_score": 0.72017151,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What is the soil pH range in Thatta?",
+    "label": "answerable",
+    "top_score": 0.81523252,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What is the sodium adsorption ratio of the soils in Thatta?",
+    "label": "answerable",
+    "top_score": 0.80927593,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.4,
+        "first_hit": 3
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p6",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p5"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What is the exchangeable sodium percentage (ESP) of Thatta soils?",
+    "label": "answerable",
+    "top_score": 0.69097626,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.16666666666666666,
+        "precision": 0.3,
+        "first_hit": 6
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.5,
+        "first_hit": 2
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.4,
+        "first_hit": 3
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p6",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p4"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Which halophyte species were collected in Thatta?",
+    "label": "answerable",
+    "top_score": 0.82782817,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.16666666666666666,
+        "precision": 0.1,
+        "first_hit": 6
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.3,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.4,
+        "first_hit": 2
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p2"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Which halophyte had the highest sodium content?",
+    "label": "answerable",
+    "top_score": 0.59313804,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.2,
+        "first_hit": 2
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Which halophyte species had the highest potassium content?",
+    "label": "answerable",
+    "top_score": 0.59784269,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.5,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.2,
+        "precision": 0.2,
+        "first_hit": 5
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.3,
+        "first_hit": 3
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "What is the chloride content of the halophytes collected in Thatta?",
+    "label": "answerable",
+    "top_score": 0.77184349,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.2,
+        "first_hit": 3
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.25,
+        "precision": 0.3,
+        "first_hit": 4
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "What is the organic matter content of Thatta soils?",
+    "label": "answerable",
+    "top_score": 0.75055277,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Which species tolerate both salinity and drought in Thar?",
+    "label": "answerable",
+    "top_score": 0.83548355,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.8,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.5,
+        "first_hit": 2
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.8,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Which Thar plant species ranked highest for salinity tolerance?",
+    "label": "answerable",
+    "top_score": 0.70578504,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.5,
+        "first_hit": 2
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.6,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p3"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "What NaCl levels were used in the salinity experiment on Thar plants?",
+    "label": "answerable",
+    "top_score": 0.76065069,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.25,
+        "precision": 0.3,
+        "first_hit": 4
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "What soil moisture levels were used in the drought experiment?",
+    "label": "answerable",
+    "top_score": 0.5774954,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.2,
+        "precision": 0.5,
+        "first_hit": 5
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.5,
+        "first_hit": 2
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p2"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Which four plant species of the Thar desert were studied?",
+    "label": "answerable",
+    "top_score": 0.82671177,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.8,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p4"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Is Shisham suitable for Thatta?",
+    "label": "partial",
+    "top_score": 0.49188298,
+    "scores": {
+      "dense": {
+        "recall": 0.0,
+        "hit": 0.0,
+        "mrr": 0.0,
+        "precision": 0.0,
+        "first_hit": null
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p46",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Is Neem suitable for Sindh saline soil?",
+    "label": "partial",
+    "top_score": 0.54770601,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p77",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p48",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "silvo_ecological_zones_2023.pdf p64",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p1"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Is Prosopis cineraria suitable for saline soil?",
+    "label": "partial",
+    "top_score": 0.65401137,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.8,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.4,
+        "first_hit": 3
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.5,
+        "first_hit": 2
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "silvo_ecological_zones_2023.pdf p77",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p47"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Which Sindh ecological zone does Thatta district belong to?",
+    "label": "unanswerable",
+    "top_score": 0.52134931
+  },
+  {
+    "id": 38,
+    "question": "What is the growth rate of mangroves in Thatta?",
+    "label": "unanswerable",
+    "top_score": 0.27125171
+  },
+  {
+    "id": 39,
+    "question": "What is the annual rainfall in Thatta?",
+    "label": "unanswerable",
+    "top_score": 0.14033625
+  },
+  {
+    "id": 40,
+    "question": "What is the market price of Eucalyptus timber?",
+    "label": "unanswerable",
+    "top_score": 0.05419872
+  },
+  {
+    "id": 41,
+    "question": "Which fertilizer should be applied to Neem seedlings?",
+    "label": "unanswerable",
+    "top_score": 0.24077459
+  },
+  {
+    "id": 42,
+    "question": "How many trees were planted in Thatta last year?",
+    "label": "unanswerable",
+    "top_score": 0.24508502
+  },
+  {
+    "id": 43,
+    "question": "What is the salinity tolerance of Shisham?",
+    "label": "unanswerable",
+    "top_score": 0.26894143
+  },
+  {
+    "id": 44,
+    "question": "What is the groundwater depth in Thatta?",
+    "label": "unanswerable",
+    "top_score": 0.19930799
+  },
+  {
+    "id": 45,
+    "question": "How much does a Neem sapling cost?",
+    "label": "unanswerable",
+    "top_score": 0.11596072
+  }
+]

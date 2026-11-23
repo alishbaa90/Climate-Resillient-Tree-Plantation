@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Map Explorer - Tree Plantation</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<style>
+:root{--bg:#1c1814;--nav:#08382a;--panel:#26201a;--bub:#6b5a43;--ink:#f3ece1;--mute:#c8bba8;--acc:#5be37d;--btn:#16845f;--line:#4a3d2f;--warn:#f2c06b;--bad:#f2a28d}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--ink);font:15px/1.55 "Segoe UI",system-ui,sans-serif}
+nav{background:var(--nav);display:flex;align-items:center;gap:4px;padding:12px 28px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;margin-right:22px;color:#fff;text-decoration:none}
+.brand svg{width:26px;height:26px}
+nav a.tab{color:#d6efe3;text-decoration:none;padding:7px 13px;border-radius:9px}
+nav a.tab.on{background:rgba(255,255,255,.16);color:#fff}
+nav .sp{flex:1}
+button{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:9px 16px;background:var(--btn);color:#fff}
+button.ghost{background:transparent;border:1px solid #8a7b66;color:var(--ink)}
+button.small{padding:6px 12px;font-size:14px}
+button:disabled{opacity:.6;cursor:wait}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+main{flex:1;max-width:1240px;width:100%;margin:0 auto;padding:18px 28px 24px}
+h1{margin:0 0 4px;font-size:26px}
+.lead{color:var(--mute);margin:0 0 14px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:1fr 360px;gap:16px}
+#map{height:560px;border-radius:14px;border:1px solid var(--line);background:#2b251e}
+.panel{background:var(--panel);border-radius:14px;padding:16px;overflow:auto;max-height:560px}
+.panel h2{margin:0 0 4px;font-size:18px}
+.panel h3{margin:16px 0 6px;font-size:15px;color:var(--acc)}
+.kv{display:flex;justify-content:space-between;gap:12px;padding:5px 0;border-bottom:1px solid var(--line)}
+.kv span:first-child{color:var(--mute)}
+.small-note{font-size:12.5px;color:var(--mute);margin:6px 0 0}
+.msg{margin:8px 0;color:var(--warn);font-size:14px}
+.msg.err{color:var(--bad)}
+.bars{display:flex;align-items:flex-end;gap:4px;height:70px;margin-top:8px}
+.bars div{flex:1;background:#2f6f4f;border-radius:3px 3px 0 0;min-height:2px}
+.bars-l{display:flex;gap:4px;font-size:11px;color:var(--mute)}
+.bars-l span{flex:1;text-align:center}
+.actions{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+.pill{font-size:12.5px;padding:2px 10px;border-radius:99px;background:#2f6f4f}
+@media(max-width:900px){.grid{grid-template-columns:1fr}#map{height:420px}.panel{max-height:none}main{padding:12px}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <a class="brand" href="home.html"><svg viewBox="0 0 24 24" fill="none" stroke="#5be37d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7z"/></svg>Tree Plantation</a>
+  <a class="tab" href="home.html">Home</a>
+  <a class="tab" href="assistant.html">AI Assistant</a>
+  <a class="tab on" href="map.html" aria-current="page">Map Explorer</a>
+  <a class="tab" href="species.html">Tree Species</a>
+  <a class="tab" href="index.html#sources">Knowledge Sources</a>
+  <a class="tab" href="index.html#about">About</a>
+  <span class="sp"></span>
+  <button class="ghost" id="signout" type="button">Sign out</button>
+</nav>
+
+<main>
+  <h1>Map Explorer</h1>
+  <p class="lead">Click a point inside the green Thatta boundary to see estimated climate and topsoil there. These are gridded estimates, not field measurements.</p>
+  <div class="tools">
+    <button class="ghost small" id="locate" type="button">Use my location</button>
+    <button class="ghost small" id="fit" type="button">Show full district</button>
+    <span class="pill" id="cov" hidden>District coverage</span>
+  </div>
+  <div class="grid">
+    <div id="map" role="application" aria-label="Map of Thatta district"></div>
+    <aside class="panel" id="panel" aria-live="polite">
+      <h2>Environmental data</h2>
+      <p class="small-note">Select a point inside the green boundary.</p>
+    </aside>
+  </div>
+</main>
+
+<script>
+const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
+const API = "http://127.0.0.1:8000";
+const LOGIN_PAGE = "login.html";
+const MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+const TIMEOUT_MS = { climate: 45000, soil: 65000 };
+
+const $ = s => document.querySelector(s);
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = (v, d = 1) => (v === null || v === undefined || Number.isNaN(Number(v))) ? "n/a" : Number(v).toFixed(d);
+
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let token = null, map = null, marker = null, boundaryLayer = null, requestId = 0;
+// state.climate / state.soil: undefined = still loading, null = failed (reason in state.errors), object = data
+let state = null;
+
+async function api(path, opt = {}) {
+  let r;
+  try { r = await fetch(API + path, { ...opt, headers: { Authorization: "Bearer " + token } }); }
+  catch (e) {
+    if (e.name === "AbortError") throw new Error("The request took too long. Please try again.");
+    throw new Error("The server is not reachable. Start it with: py -m uvicorn main:app");
+  }
+  const d = await r.json().catch(() => ({}));
+  if (r.status === 401) { location.href = LOGIN_PAGE; throw new Error("Please sign in again."); }
+  if (!r.ok) {
+    const err = new Error((d.detail && d.detail.message) || "Request failed (" + r.status + ")");
+    err.code = d.detail && d.detail.code;
+    throw err;
+  }
+  return d;
+}
+
+function row(label, value, unit = "") {
+  return `<div class="kv"><span>${esc(label)}</span><span>${esc(value)}${unit ? " " + esc(unit) : ""}</span></div>`;
+}
+
+function climateHtml(c, err) {
+  if (c === undefined) return `<h3>Climate</h3><p class="small-note">Loading climate...</p>`;
+  if (!c) return `<h3>Climate</h3><div class="msg">${esc(err || "Climate data is not available.")}</div>
+    <button class="small" id="retry-climate" type="button">Retry climate</button>`;
+  const monthly = c.rainfall_monthly_mm || {};
+  const max = Math.max(1, ...MONTHS.map(m => monthly[m] || 0));
+  const bars = MONTHS.map(m => `<div style="height:${Math.round(((monthly[m] || 0) / max) * 100)}%" title="${m}: ${fmt(monthly[m])} mm"></div>`).join("");
+  const labels = MONTHS.map(m => `<span>${m[0]}</span>`).join("");
+  const hot = c.temperature_max_c;
+  const wet = c.rainfall_wettest_month;
+  return `<h3>Climate</h3>
+    ${row("Mean temperature", fmt(c.temperature_mean_c), "°C")}
+    ${hot ? row("Hottest month max", `${fmt(hot.value)} (${hot.month})`, "°C") : ""}
+    ${row("Coldest month min", fmt(c.temperature_min_c), "°C")}
+    ${row("Annual rainfall", fmt(c.rainfall_annual_mm, 0), "mm")}
+    ${wet ? row("Wettest month", `${wet.month}, ${fmt(wet.mm)}`, "mm") : ""}
+    ${row("Relative humidity", fmt(c.humidity_percent), "%")}
+    <div class="bars" aria-label="Monthly rainfall">${bars}</div>
+    <div class="bars-l">${labels}</div>
+    <p class="small-note">Monthly rainfall (mm). ${esc(c.label)}</p>`;
+}
+
+function soilHtml(s, err) {
+  if (s === undefined) {
+    return `<h3>Topsoil (0-30 cm)</h3><p class="small-note">Loading soil... the soil service can take up to about a minute. Climate above is already final.</p>`;
+  }
+  if (!s) {
+    return `<h3>Topsoil (0-30 cm)</h3><div class="msg">${esc(err || "Soil data is not available.")}</div>
+      <button class="small" id="retry-soil" type="button">Retry soil</button>
+      <p class="small-note">The soil service is sometimes slow. If Retry fails right away, wait about 20 seconds and try again.</p>`;
+  }
+  return `<h3>Topsoil (0-30 cm)</h3>
+    ${row("Soil pH", fmt(s.ph))}
+    ${row("Clay", fmt(s.clay_pct), "%")}
+    ${row("Sand", fmt(s.sand_pct), "%")}
+    ${row("Silt", fmt(s.silt_pct), "%")}
+    ${row("Organic carbon", fmt(s.organic_carbon_g_kg), "g/kg")}
+    <p class="small-note">${esc(s.label)}</p>`;
+}
+
+function render() {
+  const s = state;
+  if (!s) return;
+  if (s.fatal) {
+    $("#panel").innerHTML = `<h2>Environmental data</h2><div class="msg err">${esc(s.fatal)}</div>`;
+    return;
+  }
+  const q = `Which trees can I plant near latitude ${s.lat.toFixed(4)}, longitude ${s.lng.toFixed(4)} in Thatta?`;
+  const when = s.retrieved ? new Date(s.retrieved).toLocaleString() : "";
+  $("#panel").innerHTML = `<h2>Environmental data</h2>
+    <p class="small-note">Selected point: ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)}</p>
+    ${climateHtml(s.climate, s.errors.climate)}
+    ${soilHtml(s.soil, s.errors.soil)}
+    <div class="actions"><a href="assistant.html?q=${encodeURIComponent(q)}"><button type="button">Ask about this location</button></a></div>
+    <p class="small-note">The assistant answers only from the documents. These live values are not sent to it.</p>
+    ${s.notes.map(n => `<p class="small-note">${esc(n)}</p>`).join("")}
+    ${when ? `<p class="small-note">Retrieved ${esc(when)}</p>` : ""}`;
+  const rs = $("#retry-soil"), rc = $("#retry-climate");
+  if (rs) rs.onclick = () => loadPart("soil", s.id);
+  if (rc) rc.onclick = () => loadPart("climate", s.id);
+}
+
+async function loadPart(part, id) {
+  if (!state || state.id !== id) return;
+  state[part] = undefined;
+  delete state.errors[part];
+  render();
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS[part]);
+  try {
+    const d = await api(`/environment?lat=${state.lat}&lon=${state.lng}&parts=${part}`, { signal: controller.signal });
+    if (!state || state.id !== id) return; // a newer click replaced this one
+    state[part] = d[part] || null;
+    if (!d[part]) state.errors[part] = (d.errors && d.errors[part]) || "No data was returned.";
+    if (d.notes && !state.notes.length) state.notes = d.notes;
+    if (d.retrieved_at && (!state.retrieved || d.retrieved_at > state.retrieved)) state.retrieved = d.retrieved_at;
+  } catch (e) {
+    if (!state || state.id !== id) return;
+    if (e.code === "outside_coverage") {
+      if (marker) { map.removeLayer(marker); marker = null; }
+      state.fatal = "That point is outside the Thatta boundary. Click inside the green outline.";
+    } else {
+      state[part] = null;
+      state.errors[part] = e.message;
+    }
+  } finally { clearTimeout(timer); }
+  if (state && state.id === id) render();
+}
+
+function lookup(lat, lng) {
+  const id = ++requestId;
+  state = { id, lat, lng, climate: undefined, soil: undefined, errors: {}, notes: [], retrieved: null, fatal: null };
+  if (marker) marker.setLatLng([lat, lng]); else marker = L.marker([lat, lng]).addTo(map);
+  render();
+  loadPart("climate", id); // climate is quick, soil can be slow: both start now and update the panel on their own
+  loadPart("soil", id);
+}
+
+async function loadBoundary() {
+  try {
+    const geo = await api("/boundary");
+    boundaryLayer = L.geoJSON(geo, { interactive: false, style: { color: "#5be37d", weight: 2.5, fillColor: "#5be37d", fillOpacity: 0.06 } }).addTo(map);
+    map.fitBounds(boundaryLayer.getBounds(), { padding: [10, 10] });
+    $("#cov").hidden = false;
+  } catch (e) {
+    $("#panel").insertAdjacentHTML("beforeend", `<div class="msg err">Could not draw the district boundary: ${esc(e.message)}</div>`);
+  }
+}
+
+function initMap() {
+  map = L.map("map").setView([24.75, 67.9], 9);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+  map.on("click", e => lookup(e.latlng.lat, e.latlng.lng));
+  $("#fit").onclick = () => { if (boundaryLayer) map.fitBounds(boundaryLayer.getBounds(), { padding: [10, 10] }); };
+  $("#locate").onclick = () => {
+    if (!navigator.geolocation) return alert("Your browser does not support location.");
+    navigator.geolocation.getCurrentPosition(
+      pos => { map.setView([pos.coords.latitude, pos.coords.longitude], 12); lookup(pos.coords.latitude, pos.coords.longitude); },
+      () => alert("Could not get your location.")
+    );
+  };
+}
+
+$("#signout").onclick = async () => { await sb.auth.signOut(); location.href = LOGIN_PAGE; };
+
+(async () => {
+  const { data } = await sb.auth.getSession();
+  if (!data.session) { location.href = LOGIN_PAGE; return; }
+  token = data.session.access_token;
+  sb.auth.onAuthStateChange((_e, s) => { if (s) token = s.access_token; });
+  initMap();
+  loadBoundary();
+})();
+</script>
+</body>
+</html>

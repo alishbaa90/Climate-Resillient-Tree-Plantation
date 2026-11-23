@@ -1,0 +1,5421 @@
+{
+ "generated_at": "2026-11-20T11:48:59+00:00",
+ "species": [
+  {
+   "scientific_name": "Adhatoda vasica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bhekarr",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "adhatoda-vasica"
+  },
+  {
+   "scientific_name": "Aegiceras corniculatum",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Chaanhr",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "aegiceras-corniculatum"
+  },
+  {
+   "scientific_name": "Aegle marmelos",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree, up to 13 m tall, drooping branches and rather open, irregular crown. Cultivated in parks.",
+     "habitat": "Sub-Himalayan tract, from Jhelum eastward, Salt Range and lower Balochistan",
+     "page": 68
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bael",
+     "section": "Urban landscaping tables",
+     "pages": [
+      68
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "aegle-marmelos"
+  },
+  {
+   "scientific_name": "Albizia lebbeck",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Black Siris",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Black Siris",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Sareehan, Black Siris",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "id": "albizia-lebbeck"
+  },
+  {
+   "scientific_name": "Albizia procera",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Safed Sareehan, White Siris",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Safed Sareehan, White siris",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    },
+    {
+     "text": "Safed Siris",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "id": "albizia-procera"
+  },
+  {
+   "scientific_name": "Alstonia scholaris",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen, up to 40 m tall, branches and leaves in whorls, green to white fragrant flowers bloom in October.",
+     "habitat": "Central Punjab Foothills",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Chattian",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "alstonia-scholaris"
+  },
+  {
+   "scientific_name": "Amherstia nobilis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree grows up to 15 m tall, rounded crown, gentle weeping branches. It produces large, showy crimson flowers hanging in bunches.",
+     "habitat": "Humid Subtropical area.",
+     "page": 68
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Pride of Burma",
+     "section": "Urban landscaping tables",
+     "pages": [
+      68
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "amherstia-nobilis"
+  },
+  {
+   "scientific_name": "Araucaria heterophylla",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree, height of 50–65 m tall, straight vertical trunk and symmetrical branches.",
+     "habitat": "Irrigated plains Hilly areas where frost does not occur",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Araucaria",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "araucaria-heterophylla"
+  },
+  {
+   "scientific_name": "Avicennia marina",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Timmar",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "avicennia-marina"
+  },
+  {
+   "scientific_name": "Azadirachta indica",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree, up to 25 m tall, white fragrant flowers are small, bunches of flowers in March and April, planted for shade.",
+     "habitat": "tropical and Subtropical frost-free regions.",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Neem",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Neem",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    },
+    {
+     "text": "Neem",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    },
+    {
+     "text": "Nim. Neem",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "azadirachta-indica"
+  },
+  {
+   "scientific_name": "Bauhinia purpurea",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Medium-size deciduous tree growing to 5 m tall, conspicuous pink fragrant flowers appear September-November, planted as an ornamental roadside and garden plant.",
+     "habitat": "Himalayan foothills and cultivated in Subtropical zone.",
+     "page": 71
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kachnar",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Koiral Qarmazi Kachnar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      71
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "bauhinia-purpurea"
+  },
+  {
+   "scientific_name": "Bauhinia variegata",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Deciduous in the dry season 10–12 m tall, conspicuous bright pink or white flowers appear in February- April, widely planted as an ornamental tree.",
+     "habitat": "Sub-Himalayan tracts. It has a wide distribution through the hills and plains",
+     "page": 71
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bahari",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Kachnar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      71
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "bauhinia-variegata"
+  },
+  {
+   "scientific_name": "Bischofia javanica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Large evergreen tree, 15-17 m tall, planted in parks and as avenue tree.",
+     "habitat": "Irrigated plains and frost-free regions.",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bishop Tree",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "bischofia-javanica"
+  },
+  {
+   "scientific_name": "Bombax ceiba",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Large deciduous tree, 36 m or more tall, red showy flowers are fleshy and occur in March.",
+     "habitat": "Himalayan foothills and cultivated throughout the plains as an avenue tree.",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Sambul, Simel",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Simel",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Simel",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "bombax-ceiba"
+  },
+  {
+   "scientific_name": "Brachychiton populneus",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Medium sized trees can reach up to 15 m, dense canopy of glossy green foliage, the cream-colored flowers with streaked pink or purple throats, appear late spring to autumn, great source of nectar for bees. Highly drought tolerant.",
+     "habitat": "Subtropical zone",
+     "page": 68
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Sterculia diversifolia as a synonym of Brachychiton populneus.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kurrajong",
+     "section": "Urban landscaping tables",
+     "pages": [
+      68
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "brachychiton-populneus"
+  },
+  {
+   "scientific_name": "Bruguiera gymnorhiza",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Extinct",
+     "page": 47,
+     "footnote": "Reported by Syed Mohammed Saifullah, University of Karachi in book: The third Research on Mangroves in Middle East, (pp.69-80). Chapter: Mangrove Ecosystem of Pakistan.",
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Not Known",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Extinct",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "bruguiera-gymnorhiza"
+  },
+  {
+   "scientific_name": "Butea monosperma",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Medium-sized dry-season deciduous tree, crooked trunk, and irregular branches, growing to 15 m tall, flowers are bright orange-red and produced in bunches.",
+     "habitat": "Sub-Himalayan tract",
+     "page": 68
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Chechra, Dhak",
+     "section": "Urban landscaping tables",
+     "pages": [
+      68
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "butea-monosperma"
+  },
+  {
+   "scientific_name": "Caesalpinia pulcherrima",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A shrub growing to 3 m tall, semievergreen, yellow, orange, or red flowers are borne in bunches, frost tender.",
+     "habitat": "Sothern Sindh",
+     "page": 74
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Poinciana",
+     "section": "Urban landscaping tables",
+     "pages": [
+      74
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "caesalpinia-pulcherrima"
+  },
+  {
+   "scientific_name": "Capparis decidua",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Karir, Dela",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "capparis-decidua"
+  },
+  {
+   "scientific_name": "Carissa opaca",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit / Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Garanda",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "carissa-opaca"
+  },
+  {
+   "scientific_name": "Cassia fistula",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A medium-sized deciduous tree, growing to 10–20 m tall with fast growth. The flowers are produced in pendulous racemes 20–40 cm long with yellow petals. The tree has strong and very durable wood for making furniture, agricultural implements, wheels and mortars.",
+     "habitat": "Sub-Himalayan tract and sub-tropics. Irrigated plains",
+     "page": 68
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Amaltas",
+     "section": "Urban landscaping tables",
+     "pages": [
+      68
+     ]
+    },
+    {
+     "text": "Aritheo, Amaltas",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "cassia-fistula"
+  },
+  {
+   "scientific_name": "Cassia javanica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Small tree with spreading crown. garden tree owing to its beautiful crimson and pink flower bunches",
+     "habitat": "Subtropical areas.",
+     "page": 71
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Java Cassia",
+     "section": "Urban landscaping tables",
+     "pages": [
+      71
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cassia-javanica"
+  },
+  {
+   "scientific_name": "Cassia nodosa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Fast growing, deciduous / semi- deciduous tree which flowers in spring. It has a straight trunk that reaches heights of 25 - 40m.",
+     "habitat": null,
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Java Cassia",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cassia-nodosa"
+  },
+  {
+   "scientific_name": "Casuarina equisetifolia",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Exotic",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Medium",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Casuarina",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Casuriana",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Exotic",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "casuarina-equisetifolia"
+  },
+  {
+   "scientific_name": "Cedrela toona",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree, crown broad and rounded, sweet scented white flowers in March-May.",
+     "habitat": "Plains and foothills up to 1000 m.",
+     "page": 68
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Cedrela toona as a synonym of Toona ciliata.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Toon",
+     "section": "Urban landscaping tables",
+     "pages": [
+      68
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cedrela-toona"
+  },
+  {
+   "scientific_name": "Cedrus deodara",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "It is a large evergreen coniferous tree reaching 40–50 m tall with a trunk up to 3 m n diameter. It has a conic crown with level branches and drooping branchlets.",
+     "habitat": null,
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Diar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cedrus-deodara"
+  },
+  {
+   "scientific_name": "Celtis caucasica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree with rounded crown, about 15 m tall with slender pendulous branches, leaves turn pale yellow in fall, drought tolerant and tolerates urban pollution.",
+     "habitat": "Temperate zone in Pakistan.",
+     "page": 68
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Celtis australis as a synonym of Celtis caucasica.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Batkhar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      68
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "celtis-caucasica"
+  },
+  {
+   "scientific_name": "Celtis eriocarpa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree, 15-18 m tall, with slender pendulous branches, leaves turn pale yellow in fall, drought tolerant and tolerates urban pollution.",
+     "habitat": "Moist temperate zone, cultivated in uplands.",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Batkarl",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "celtis-eriocarpa"
+  },
+  {
+   "scientific_name": "Ceratonia siliqua",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Flowering evergreen tree or shrub. It is widely cultivated for its edible pods, and as an ornamental tree in gardens.",
+     "habitat": "Mediterranean region and irrigated plains.",
+     "page": 71
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Carob Tree",
+     "section": "Urban landscaping tables",
+     "pages": [
+      71
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "ceratonia-siliqua"
+  },
+  {
+   "scientific_name": "Ceriops decandra",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Extinct",
+     "page": 47,
+     "footnote": "Reported by Syed Mohammed Saifullah, University of Karachi in book: The third Research on Mangroves in Middle East, (pp.69-80). Chapter: Mangrove Ecosystem of Pakistan.",
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Not Known",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Extinct",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "ceriops-decandra"
+  },
+  {
+   "scientific_name": "Ceriops tagal",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kirirri",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "ceriops-tagal"
+  },
+  {
+   "scientific_name": "Citharexylum spinosum",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A fast-growing evergreen tree up to 15 m tall, small white flowers are produced throughout the year on hanging axillary and terminal racemes and panicles 20–40 cm in length.",
+     "habitat": "Tropical and subtropical zones",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Fiddle Tree",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "citharexylum-spinosum"
+  },
+  {
+   "scientific_name": "Cochlospermum gossypium",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "It is a small tree growing to a height of 7.5 m, yellow and bright flowers, planted along roadside parks and gardens",
+     "habitat": "Subtropical areas",
+     "page": 71
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Galgal",
+     "section": "Urban landscaping tables",
+     "pages": [
+      71
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cochlospermum-gossypium"
+  },
+  {
+   "scientific_name": "Commiphora wightii",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": true
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Commiphora mukul as a synonym of Commiphora wightii.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Guggal, Gugral",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "id": "commiphora-wightii"
+  },
+  {
+   "scientific_name": "Conocarpus erectus",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "English Cono",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    },
+    {
+     "text": "English Kono",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "conocarpus-erectus"
+  },
+  {
+   "scientific_name": "Conocarpus lancifolius",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Cono",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    },
+    {
+     "text": "Kono",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "conocarpus-lancifolius"
+  },
+  {
+   "scientific_name": "Cordia dichotoma",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Lasura",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Lasura",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "id": "cordia-dichotoma"
+  },
+  {
+   "scientific_name": "Cordia myxa",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Goondi",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Goondi",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "id": "cordia-myxa"
+  },
+  {
+   "scientific_name": "Cornus macrophylla",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous trees growing to 15 m, creamy white flowers borne in bunches.",
+     "habitat": "Moist temperate Himalayan region",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kandara",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cornus-macrophylla"
+  },
+  {
+   "scientific_name": "Corylus colurna",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree, up to 25 m tall, conical crown spreading in mature trees, flowers on male plants bloom in early spring before the leaves. Very tolerant of difficult growing conditions in urban areas.",
+     "habitat": "Moist temperate Himalayan range",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Urni",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "corylus-colurna"
+  },
+  {
+   "scientific_name": "Crateva religiosa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Semi-evergreen, spreading crown, glossy foliage. Cultivated in temples and graveyards.",
+     "habitat": "Sub-Himalayan tract and irrigated plains.",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Religious Tree",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    },
+    {
+     "text": "Religious Tree Karonda",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "crateva-religiosa"
+  },
+  {
+   "scientific_name": "Cupressus arizonica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Tree up to 25 m high crown broadly conical",
+     "habitat": "Dry Temperate Highlands",
+     "page": 64
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Devi Dayar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      64
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cupressus-arizonica"
+  },
+  {
+   "scientific_name": "Cupressus sempervirens",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Medium-sized coniferous evergreen tree to 35 m (with a conical crown).",
+     "habitat": "Dry Temperate Highlands",
+     "page": 65
+    },
+    {
+     "description": "Medium-sized coniferous evergreen tree to 35 m (with a conic crown",
+     "habitat": "Dry Temperate Highlands",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Saru",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65,
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "cupressus-sempervirens"
+  },
+  {
+   "scientific_name": "Dalbergia sissoo",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Tahli, Shisham",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "dalbergia-sissoo"
+  },
+  {
+   "scientific_name": "Delonix regia",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Semi-evergreen tree that attains heights of 12 to 15 m with diameters, bright showy scarlet flowers in bunches appear in May and June.",
+     "habitat": "Southern Sindh",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Gul Mohar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "delonix-regia"
+  },
+  {
+   "scientific_name": "Dillenia indica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "It is an evergreen tree growing to 15 m tall, grown in gardens, where it is highly prized for its large (15– 20 cm) handsome white flowers with yellow stamens and fragrant large flowers.",
+     "habitat": "Subtropical areas",
+     "page": 71
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Elephant Apple",
+     "section": "Urban landscaping tables",
+     "pages": [
+      71
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "dillenia-indica"
+  },
+  {
+   "scientific_name": "Diospyros malabarica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Almost evergreen tree, leafless only for short time, new leaves shinning coppery red, spreading crown. Large red velvety fruits. Planted as avenue tree.",
+     "habitat": "Irrigated plains and plateau",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Gaab",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "diospyros-malabarica"
+  },
+  {
+   "scientific_name": "Ehretia laevis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A small to medium sized tree up to 9 m tall. Flowers white.",
+     "habitat": "Subtropical foothills",
+     "page": 71
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Sakkar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      71
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "ehretia-laevis"
+  },
+  {
+   "scientific_name": "Ehretia serrata",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Medium sized tree, up to 12 m tall, oblong in shape, small white flowers are fragrant, occur in large cone shaped bunches",
+     "habitat": "Sub-Himalayan tract and central Punjab.",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Puna",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "ehretia-serrata"
+  },
+  {
+   "scientific_name": "Elaeagnus angustifolia",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar / fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Russian Olive",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "elaeagnus-angustifolia"
+  },
+  {
+   "scientific_name": "Erythrina suberosa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Showy flowers and habit of flowering most of the year, it is often planted as an ornamental or street tree.",
+     "habitat": "Irrigated Plains",
+     "page": 65
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Gul-i-Nishter",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "erythrina-suberosa"
+  },
+  {
+   "scientific_name": "Eucalyptus camaldulensis",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Medium",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Safeda",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Safeda, Laachi",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    },
+    {
+     "text": "Safeda, Lachi",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    },
+    {
+     "text": "Sufeda",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Exotic",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "eucalyptus-camaldulensis"
+  },
+  {
+   "scientific_name": "Eucalyptus citriodora",
+   "sindh_zones": [],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Tall tree that is endemic to north- eastern Australia. It has smooth white to pink bark, narrow lance- shaped to curved adult leaves, flower buds in groups of three, white flowers and urn-shaped or barrel-shaped fruit",
+     "habitat": "Irrigated plains",
+     "page": 65
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Sufeda",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Sufeda",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "id": "eucalyptus-citriodora"
+  },
+  {
+   "scientific_name": "Eucalyptus microtheca",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Safeda",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Safeda, Laachi",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    },
+    {
+     "text": "Safeda, Lachi",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    },
+    {
+     "text": "Sufeda",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Sufeda",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Exotic",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Exotic",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "eucalyptus-microtheca"
+  },
+  {
+   "scientific_name": "Eucalyptus tereticornis",
+   "sindh_zones": [],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Sufeda",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Sufeda",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Exotic",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "id": "eucalyptus-tereticornis"
+  },
+  {
+   "scientific_name": "Faidherbia albida",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Medium",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Babur",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Exotic",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "faidherbia-albida"
+  },
+  {
+   "scientific_name": "Fernandoa adenophylla",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree up to 15 m tall, large leaves, large pale yellow trumpet shaped flowers, fruit long and twisted, hanging like snakes.",
+     "habitat": "Irrigated plains",
+     "page": 69
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Heterophragma adenophyllum as a synonym of Fernandoa adenophylla.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Nag Phalli",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "fernandoa-adenophylla"
+  },
+  {
+   "scientific_name": "Ficus benghalensis",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Large evergreen tree, sheds leave for a short period in hot season, large spreading crown.",
+     "habitat": "Sub-Himalayan tract",
+     "page": 65
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bar",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Barh",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Burr, Bohrr",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "ficus-benghalensis"
+  },
+  {
+   "scientific_name": "Ficus carica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Fig",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "ficus-carica"
+  },
+  {
+   "scientific_name": "Ficus microcarpa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen, up to 15-20 m tall, dense rounded crown, commonly planted as a street tree",
+     "habitat": "Irrigated plains",
+     "page": 65
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Indian Laurel",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "ficus-microcarpa"
+  },
+  {
+   "scientific_name": "Ficus racemosa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Evergreen or occasionally deciduous tree 10-20 m tall, planted for shade in gardens.",
+     "habitat": "Irrigated plains",
+     "page": 65
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Gular",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Gular",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "ficus-racemosa"
+  },
+  {
+   "scientific_name": "Ficus religiosa",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Large evergreen tree, sheds leaves for a short period in hot season, large spreading crown. Planted in gardens and as avenue tree for shade.",
+     "habitat": "Sub-Himalayan tract and irrigated plains",
+     "page": 65
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Pipal",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Pipal",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Pipal",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "ficus-religiosa"
+  },
+  {
+   "scientific_name": "Ficus retusa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bobari",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "ficus-retusa"
+  },
+  {
+   "scientific_name": "Ficus virens",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "A large-sized tree 24–27 m high. It has two marked growth periods: in spring (February to early May), and in the time of the monsoon rains (i.e., June to early September). The new leaves are a beautiful shade of reddish pink and very pleasing to the eye. This is a very massive tree in which the size of the crown can sometimes exceed the height of the tree.",
+     "habitat": "Tropical and subtropical regions.",
+     "page": 65
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Pilkan",
+     "section": "Urban landscaping tables",
+     "pages": [
+      65
+     ]
+    },
+    {
+     "text": "Pilkhan",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "ficus-virens"
+  },
+  {
+   "scientific_name": "Flueggea virosa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous shrub or small tree, up to 4 m high; numerous branches arising from the base and spirally arranged upwards, small creamy green flowers, fruit are white and fleshy and appear in December- March.",
+     "habitat": "Subtropical areas.",
+     "page": 72
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Path Geri",
+     "section": "Urban landscaping tables",
+     "pages": [
+      72
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "flueggea-virosa"
+  },
+  {
+   "scientific_name": "Gleditsia triacanthos",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Honey Locust",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "gleditsia-triacanthos"
+  },
+  {
+   "scientific_name": "Gmelina arborea",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Gumhar",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "gmelina-arborea"
+  },
+  {
+   "scientific_name": "Grevillea robusta",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Silver Oak",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "grevillea-robusta"
+  },
+  {
+   "scientific_name": "Guiacum officinale",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A small (7-10 m in height) with a round crown, slow-growing trees, attractive blue flower and orange- yellow fruit.",
+     "habitat": "Coastal areas.",
+     "page": 72
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Lignum",
+     "section": "Urban landscaping tables",
+     "pages": [
+      72
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "guiacum-officinale"
+  },
+  {
+   "scientific_name": "Hyophorbe lagenicaulis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A small evergreen palm, growing to 7m tall, smooth pale grey to almost white trunk with swollen like a bottle, 4-8dark gracefully arching green feather like leaves at the top of the trunk",
+     "habitat": "Subtropical zone",
+     "page": 69
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bottle Palm",
+     "section": "Urban landscaping tables",
+     "pages": [
+      69
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "hyophorbe-lagenicaulis"
+  },
+  {
+   "scientific_name": "Jatropha integerrima",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen woody shrub or small tree, able to grow up to about 4.5 m tall and with a spread of 2 - 3 m wide, clusters of flowers.",
+     "habitat": "Cultivated in sub- tropics and irrigated plains.",
+     "page": 72
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Jatropga",
+     "section": "Urban landscaping tables",
+     "pages": [
+      72
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "jatropha-integerrima"
+  },
+  {
+   "scientific_name": "Lagerstroemia indica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous multi-stemmed tree, a wide spreading crown, up to 7 m tall, flowers are white, pink, mauve, purple or carmine with crimped petals.",
+     "habitat": "Temperate, Subtropical areas and irrigated plains.",
+     "page": 72
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Lagerstroemia",
+     "section": "Urban landscaping tables",
+     "pages": [
+      72
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "lagerstroemia-indica"
+  },
+  {
+   "scientific_name": "Livistona chinensis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Medium sized evergreen palm adorned with up to 50 large emerald-green leaves",
+     "habitat": "Subtropical zone",
+     "page": 70
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Fountain Palm",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "livistona-chinensis"
+  },
+  {
+   "scientific_name": "Mallotus philippensis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Semi-evergreen tree growing to 12 m high, it is grown as an ornamental, being valued especially for its red fruits.",
+     "habitat": "Subtropical Himalayas region",
+     "page": 70
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kamila",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "mallotus-philippensis"
+  },
+  {
+   "scientific_name": "Mangifera indica",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Amb, Aam",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "mangifera-indica"
+  },
+  {
+   "scientific_name": "Melaleuca citrina",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "It is a shrub growing to 5 m tall. Its showy red flower spikes, present over most of the year in an ideal situation, account for its popularity.",
+     "habitat": "Subtropical zone",
+     "page": 74
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Red Bottle Brush",
+     "section": "Urban landscaping tables",
+     "pages": [
+      74
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "melaleuca-citrina"
+  },
+  {
+   "scientific_name": "Melaleuca viminalis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Evergreen multi-trunked tree, pendulous foliage, and large numbers of bright red bottlebrush flowers in spring and summer. It grows up to 10 m tall.",
+     "habitat": "Subtropical zone.",
+     "page": 72
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Callistemon viminalis as a synonym of Melaleuca viminalis.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bottle brush",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Weeping Bottle Brush",
+     "section": "Urban landscaping tables",
+     "pages": [
+      72
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "melaleuca-viminalis"
+  },
+  {
+   "scientific_name": "Melia azedarach",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree with a rounded crown, grows up to 12 m, purple or lilac flowers in clusters. Mainly planted for shade and flowers.",
+     "habitat": "Himalayas up to 1700 m, cultivated in sub- tropics and irrigated plains.",
+     "page": 70
+    },
+    {
+     "description": "This is a variety of Melia azedarach (Dhrek) which has multiple stems, It is a small to medium tree, with dense canopy.",
+     "habitat": "Cultivated in Subtropical plains. Irrigated plains.",
+     "page": 72
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bakain, Chhatri Dhrek",
+     "section": "Urban landscaping tables",
+     "pages": [
+      72
+     ]
+    },
+    {
+     "text": "Dharek",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "melia-azedarach"
+  },
+  {
+   "scientific_name": "Millettia pinnata",
+   "sindh_zones": [],
+   "salinity": [
+    {
+     "level": "Medium",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Semi-evergreen tree with drooping branches, grows to about 15–25 m with a large canopy that spreads equally wide, clusters of small white, purple, and pink flowers in March and April.",
+     "habitat": "Cultivated in Subtropical zone up to 600 m elevation, irrigated plains and foothills.",
+     "page": 66
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Pongamia glabra as a synonym of Millettia pinnata.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Sukh Chain",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Sukh Chain",
+     "section": "Urban landscaping tables",
+     "pages": [
+      66
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "id": "millettia-pinnata"
+  },
+  {
+   "scientific_name": "Millingtonia hortensis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A tall erect evergreen tree attaining a height of 18-25 m, white fragrant flowers in February and March, ornamental trees in parks and large compounds. Not common in Pakistan, planted only in some rest houses.",
+     "habitat": "Subtropical irrigated plains.",
+     "page": 66
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Tree Jasmine",
+     "section": "Urban landscaping tables",
+     "pages": [
+      66
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "millingtonia-hortensis"
+  },
+  {
+   "scientific_name": "Mimusops elengi",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Medium-sized evergreen tree, up to 16 m tall, dense shade flowers are cream, hairy, and scented, fruits are fleshy, range in color",
+     "habitat": "Subtropical and irrigated plains.",
+     "page": 70
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Molsery",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "mimusops-elengi"
+  },
+  {
+   "scientific_name": "Monoon longifolium",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen trees grow to over 20 m. in height, symmetrical pyramidal growth with willowy weeping pendulous branches and long narrow lanceolate leaves. Commonly planted due to its effectiveness in alleviating noise pollution.",
+     "habitat": "Subtropical zone and irrigated plains.",
+     "page": 66
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Polyalthia longirostris as a synonym of Monoon longifolium.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "False Ashoka Ulta Ashok",
+     "section": "Urban landscaping tables",
+     "pages": [
+      66
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "monoon-longifolium"
+  },
+  {
+   "scientific_name": "Moringa oleifera",
+   "sindh_zones": [
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Sohanjna",
+     "section": "Sindh zone tables",
+     "pages": [
+      47,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "moringa-oleifera"
+  },
+  {
+   "scientific_name": "Morus alba",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Mulberry",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "morus-alba"
+  },
+  {
+   "scientific_name": "Morus nigra",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Mulberry",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "morus-nigra"
+  },
+  {
+   "scientific_name": "Murraya paniculata",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A shrub 3-4 m tall, flowers have the scent of orange blossoms and arranged in loose groups, small red fruits at the same time.",
+     "habitat": "Subtropical areas and irrigated plains.",
+     "page": 74
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kamni, Marwa",
+     "section": "Urban landscaping tables",
+     "pages": [
+      74
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "murraya-paniculata"
+  },
+  {
+   "scientific_name": "Neolamarckia cadamba",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Ornamental, large evergreen tropical tree up to 45 m, broad umbrella-shaped crown. It has a straight, cylindrical bole, sometimes with buttresses, often planted as avenue tree for shade.",
+     "habitat": "Humid sub-tropics.",
+     "page": 66
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kadam",
+     "section": "Urban landscaping tables",
+     "pages": [
+      66
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "neolamarckia-cadamba"
+  },
+  {
+   "scientific_name": "Nerium oleander",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Shrub 2–6 m tall. with multiple stems spreading outward as they mature; white, pink to red flowers grow in clusters year-round at the end of each branch, grow in clusters, peaking during the summer. It is tolerant to both drought and inundation but not to prolonged frost, cultivated as an ornamental and landscaping plant",
+     "habitat": "Subtropical areas and irrigated plains",
+     "page": 74
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kaner, Kaneer",
+     "section": "Urban landscaping tables",
+     "pages": [
+      74
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "nerium-oleander"
+  },
+  {
+   "scientific_name": "Oroxylum indicum",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous trees up to 10 m in height, leaves very large, night- bloomer, enormous seed pods up to 1.5 m long that hang down from bare branches, resembling swords.",
+     "habitat": "Cultivated from foot ills to Subtropical plains.",
+     "page": 72
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Trumpet Flower",
+     "section": "Urban landscaping tables",
+     "pages": [
+      72
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "oroxylum-indicum"
+  },
+  {
+   "scientific_name": "Peltophorum pterocarpum",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A small sized tree, up to 10 m high, dense green crown, bunches of yellow flowers May-August",
+     "habitat": "Subtropical zone mainly southern Pakistan.",
+     "page": 73
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Golden Shower",
+     "section": "Urban landscaping tables",
+     "pages": [
+      73
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "peltophorum-pterocarpum"
+  },
+  {
+   "scientific_name": "Phoenix dactylifera",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Khaji",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    },
+    {
+     "text": "Khajji",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Khajur",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "id": "phoenix-dactylifera"
+  },
+  {
+   "scientific_name": "Platanus orientalis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A large, deciduous tree 20 to 25 m tall, spreading crown, the leaves change to blood red, amber or yellow in fall.",
+     "habitat": "Temperate zone but has also cultivated in Islamabad and Lahore.",
+     "page": 66
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Chinar",
+     "section": "Urban landscaping tables",
+     "pages": [
+      66
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "platanus-orientalis"
+  },
+  {
+   "scientific_name": "Platycladus orientalis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A small, slow growing shrub grows as a dense, conical shrub. The foliage forms in flat sprays with scale-like leaves which are bright green in color. The branches are relatively short, loosely arranged and, usually, sharply directed upwards.",
+     "habitat": "Temperate areas.",
+     "page": 74
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Thuja orientalis as a synonym of Platycladus orientalis.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Mor Punkh",
+     "section": "Urban landscaping tables",
+     "pages": [
+      74
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "platycladus-orientalis"
+  },
+  {
+   "scientific_name": "Plectranthus rugosus",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Peemaar",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "plectranthus-rugosus"
+  },
+  {
+   "scientific_name": "Populus euphratica",
+   "sindh_zones": [
+    {
+     "zone": "4. Subtropical Riverine Arid Flood Plains",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Bahn",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "populus-euphratica"
+  },
+  {
+   "scientific_name": "Prosopis cineraria",
+   "sindh_zones": [
+    {
+     "zone": "4. Subtropical Riverine Arid Flood Plains",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Jand/Kandi",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Jand/Kandi",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Jand/Kandi",
+     "section": "Sindh zone tables",
+     "pages": [
+      47,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "prosopis-cineraria"
+  },
+  {
+   "scientific_name": "Prunus cornuta",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous, large tree, 15-18 m tall with a similar spread, the white flowers grow in 10 to 15 cm long bunches.",
+     "habitat": "Dry Temperate Zone",
+     "page": 66
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kala Kath",
+     "section": "Urban landscaping tables",
+     "pages": [
+      66
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "prunus-cornuta"
+  },
+  {
+   "scientific_name": "Prunus persica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A deciduous tree growing to 6 m, pink-red flowers arrive in very early spring. A fruit tree but cultivated in plains as an ornamental tree.",
+     "habitat": "Mediterranean climate, cultivated in plains as an ornamental tree.",
+     "page": 73
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Aroo",
+     "section": "Urban landscaping tables",
+     "pages": [
+      73
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "prunus-persica"
+  },
+  {
+   "scientific_name": "Pterospermum acerifolium",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree with an irregular crown, up to 30 m in height, planted as a roadside tree or garden ornamental valued especially for its beautiful, fragrant blooms.",
+     "habitat": "Subtropical plains.",
+     "page": 66
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kanak Champa",
+     "section": "Urban landscaping tables",
+     "pages": [
+      66
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "pterospermum-acerifolium"
+  },
+  {
+   "scientific_name": "Punica granatum",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "A fruit-bearing deciduous shrub that grows between 5 and 10 m tall. The flowers are red.",
+     "habitat": null,
+     "page": 75
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Anaar, Annar Danna",
+     "section": "Urban landscaping tables",
+     "pages": [
+      75
+     ]
+    },
+    {
+     "text": "Anar Danna",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "punica-granatum"
+  },
+  {
+   "scientific_name": "Putranjiva roxburghii",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [
+    {
+     "description": "Evergreen deciduous tree, growing up to 15 m, with pendent branches. Ornamental tree planted for shade.",
+     "habitat": "Subtropical plains Irrigated plains",
+     "page": 70
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Patajin",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Patajin",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "putranjiva-roxburghii"
+  },
+  {
+   "scientific_name": "Rhizophora apiculata",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Extinct",
+     "page": 47,
+     "footnote": "Reported by Syed Mohammed Saifullah, University of Karachi in book: The third Research on Mangroves in Middle East, (pp.69-80). Chapter: Mangrove Ecosystem of Pakistan.",
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Not Known",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Extinct",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "rhizophora-apiculata"
+  },
+  {
+   "scientific_name": "Rhizophora mucronata",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kumrri",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "rhizophora-mucronata"
+  },
+  {
+   "scientific_name": "Rhododendron arboretum",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "It is an evergreen shrub with a showy display of bright red flowers",
+     "habitat": null,
+     "page": 75
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Burans; Burus; Chalan; Chiu; Zalatai.",
+     "section": "Urban landscaping tables",
+     "pages": [
+      75
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "rhododendron-arboretum"
+  },
+  {
+   "scientific_name": "Robinia pseudoacacia",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Black Locust",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "robinia-pseudoacacia"
+  },
+  {
+   "scientific_name": "Roystonea regia",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A large and attractive palm, planted as an ornamental tree. reaches heights to 25 m, trunk is stout, very smooth and greyish white in color with a bulge below a distinctive green crown, about 15 leaves which can be up to 4 m long",
+     "habitat": null,
+     "page": 67
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Royal Palm",
+     "section": "Urban landscaping tables",
+     "pages": [
+      67
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "roystonea-regia"
+  },
+  {
+   "scientific_name": "Salix babylonica",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree up to 12 m high with a graceful and refined, open crown of ground-sweeping branches.",
+     "habitat": "This willow grows especially well near water.",
+     "page": 70
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Weeping Willow",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "salix-babylonica"
+  },
+  {
+   "scientific_name": "Salix tetrasperma",
+   "sindh_zones": [],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Indian Willow",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "id": "salix-tetrasperma"
+  },
+  {
+   "scientific_name": "Salvadora oleoides",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "4. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "High",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Peelu",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Peelu",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Peelu, Jar, Peroon",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    },
+    {
+     "text": "Peelu, Jar, Peroon, Khabar",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "salvadora-oleoides"
+  },
+  {
+   "scientific_name": "Salvadora persica",
+   "sindh_zones": [],
+   "salinity": [
+    {
+     "level": "High",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Peelu",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Peelu",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    }
+   ],
+   "id": "salvadora-persica"
+  },
+  {
+   "scientific_name": "Saraca asoca",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree growing to 9 m, prized for its beautiful foliage and bunches of fragrant flowers in February to April.",
+     "habitat": "Subtropical zone and irrigated plains.",
+     "page": 70
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Ashoka",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "saraca-asoca"
+  },
+  {
+   "scientific_name": "Schinus molle",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree that grows to 15 meters tall and wide, upper branches of the tree tend to droop, foliage bright green and comprised of many narrow leaflets, flowers are insignificant but the papery pink to red berries are wonderfully ornamental in the fall and winter.",
+     "habitat": "Cultivated in subtropics. Irrigated plains",
+     "page": 70
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kali Mirch",
+     "section": "Urban landscaping tables",
+     "pages": [
+      70
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "schinus-molle"
+  },
+  {
+   "scientific_name": "Senegalia modesta",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Acacia modesta as a synonym of Senegalia modesta.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Phulai",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Phulai",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "senegalia-modesta"
+  },
+  {
+   "scientific_name": "Senegalia senegal",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Acacia Senegal as a synonym of Senegalia senegal.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Kikar, Khair",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "id": "senegalia-senegal"
+  },
+  {
+   "scientific_name": "Sonneratia caseolaris",
+   "sindh_zones": [
+    {
+     "zone": "5. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Extinct",
+     "page": 47,
+     "footnote": "Reported by Syed Mohammed Saifullah, University of Karachi in book: The third Research on Mangroves in Middle East, (pp.69-80). Chapter: Mangrove Ecosystem of Pakistan.",
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Not Known",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Extinct",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "sonneratia-caseolaris"
+  },
+  {
+   "scientific_name": "Syzygium cumini",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Medium",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Nectar / fruit",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Eugenia jambolana as a synonym of Syzygium cumini.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Jaman",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Jaman",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Jaman",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "id": "syzygium-cumini"
+  },
+  {
+   "scientific_name": "Tamarindus indica",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Imli",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Imli, Gidamri",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "id": "tamarindus-indica"
+  },
+  {
+   "scientific_name": "Tamarix aphylla",
+   "sindh_zones": [
+    {
+     "zone": "4. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "High",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [
+    {
+     "plant": "Tamarix aphylla/gallica",
+     "soil_ec_ds_m": 16.3,
+     "soil_ph": 7.7,
+     "soil_om_pct": 0.92,
+     "page": 4
+    }
+   ],
+   "local_names": [
+    {
+     "text": "Farash",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Farash",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    },
+    {
+     "text": "Lao, Farash",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "tamarix-aphylla"
+  },
+  {
+   "scientific_name": "Tamarix dioica",
+   "sindh_zones": [
+    {
+     "zone": "4. Subtropical Riverine Arid Flood Plains",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Lai",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    }
+   ],
+   "id": "tamarix-dioica"
+  },
+  {
+   "scientific_name": "Tecoma stans",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "It is an irregularly shaped, evergreen shrub, generally 2-3 m tall, has several stems clusters of large, trumpet-shaped, yellow flowers are very showy against the olive-green leaves.",
+     "habitat": null,
+     "page": 75
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Tecoma Kaneru, Yellow Oleander",
+     "section": "Urban landscaping tables",
+     "pages": [
+      75
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "tecoma-stans"
+  },
+  {
+   "scientific_name": "Tecomella undulata",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A small semievergreen tree, up to 5 m tall, in springtime it produces beautiful showy tubular flowers in yellow, orange and red colors",
+     "habitat": "Subtropical uplands and some desert areas.",
+     "page": 73
+    }
+   ],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Tecoma undulata as a synonym of Tecomella undulata.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Lahura, Rohirro",
+     "section": "Urban landscaping tables",
+     "pages": [
+      73
+     ]
+    },
+    {
+     "text": "Rohirro, Lahura",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    },
+    {
+     "text": "Ticoma, Roheero",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "id": "tecomella-undulata"
+  },
+  {
+   "scientific_name": "Terminalia arjuna",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree attaining a height of 20–30 m, forms a wide canopy at the crown, cultivated as roadside tree.",
+     "habitat": null,
+     "page": 67
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Arjun",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Arjun",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    },
+    {
+     "text": "Arjun",
+     "section": "Urban landscaping tables",
+     "pages": [
+      67
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "id": "terminalia-arjuna"
+  },
+  {
+   "scientific_name": "Terminalia catappa",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous trees, up to 35 m tall, mainly planted for shade. perennial",
+     "habitat": null,
+     "page": 67
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Jangli Badam",
+     "section": "Urban landscaping tables",
+     "pages": [
+      67
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "terminalia-catappa"
+  },
+  {
+   "scientific_name": "Thespesia populnea",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Evergreen tree reaches a height of 6–10 m, canopy 3-4 m wide, cup- shaped flowers are pale 5 to 8 cm, produced intermittently throughout the year.",
+     "habitat": "Coastal areas.",
+     "page": 73
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Portia",
+     "section": "Urban landscaping tables",
+     "pages": [
+      73
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "thespesia-populnea"
+  },
+  {
+   "scientific_name": "Thevetia neriifolia",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Large ornamental shrub, poisonous but of very high landscape value because of its hardiness, showy yellow flowers in clusters.",
+     "habitat": null,
+     "page": 75
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [],
+   "origin": [],
+   "id": "thevetia-neriifolia"
+  },
+  {
+   "scientific_name": "Toona sinensis",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "Deciduous tree up to 20 m tall. Masses of pinkish white tubular flowers appear in May-June. Cultivated as avenue tree.",
+     "habitat": null,
+     "page": 67
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Toon Chinese Mahogany",
+     "section": "Urban landscaping tables",
+     "pages": [
+      67
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "toona-sinensis"
+  },
+  {
+   "scientific_name": "Triadica sebifera",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [
+    {
+     "description": "A deciduous tree, rounded crown, growing to 9 m, leaves become bright yellow, orange, purple and red in the autumn, planted for shade. It is highly adaptable and will grow in a wide range of conditions.",
+     "habitat": "Temperate zone",
+     "page": 73
+    }
+   ],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Tarcharbi",
+     "section": "Urban landscaping tables",
+     "pages": [
+      73
+     ]
+    }
+   ],
+   "origin": [],
+   "id": "triadica-sebifera"
+  },
+  {
+   "scientific_name": "Vachellia jacquemontii",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Acacia jacquemontii as a synonym of Vachellia jacquemontii.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Babri, Bouli, Ratabanli",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "id": "vachellia-jacquemontii"
+  },
+  {
+   "scientific_name": "Vachellia nilotica",
+   "sindh_zones": [
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "4. Subtropical Riverine Arid Flood Plains",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "High",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [
+    {
+     "text": "Table 2 lists Acacia nilotica as a synonym of Vachellia nilotica.",
+     "page": 14
+    }
+   ],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Babul",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Babur, Babul",
+     "section": "Sindh zone tables",
+     "pages": [
+      47
+     ]
+    },
+    {
+     "text": "Babur, Babul, Kikar",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47
+     ]
+    }
+   ],
+   "id": "vachellia-nilotica"
+  },
+  {
+   "scientific_name": "Vachellia tortilis",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Subsidiary Species",
+     "status": "Exotic",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [],
+   "bird_pollinator": [],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Walaiti Kikar",
+     "section": "Sindh zone tables",
+     "pages": [
+      46
+     ]
+    },
+    {
+     "text": "Walaiti Kikar, Babur",
+     "section": "Sindh zone tables",
+     "pages": [
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Exotic",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      48
+     ]
+    }
+   ],
+   "id": "vachellia-tortilis"
+  },
+  {
+   "scientific_name": "Vitex negundo",
+   "sindh_zones": [],
+   "salinity": [],
+   "bird_pollinator": [
+    {
+     "type": "Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Marwanii, Banna, Asl-e-Ameer",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    }
+   ],
+   "id": "vitex-negundo"
+  },
+  {
+   "scientific_name": "Ziziphus mauritiana",
+   "sindh_zones": [
+    {
+     "zone": "1. Subtropical Semi-Arid Hills",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "2. Subtropical Irrigated Plains (Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 46,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "3. Subtropical Irrigated Plains (Non-Perennial)",
+     "category": "Subsidiary Species",
+     "status": "Native",
+     "page": 47,
+     "footnote": null,
+     "listed_twice_in_source": false
+    },
+    {
+     "zone": "6. Subtropical Arid Desert",
+     "category": "Main Species",
+     "status": "Native",
+     "page": 48,
+     "footnote": null,
+     "listed_twice_in_source": false
+    }
+   ],
+   "salinity": [
+    {
+     "level": "Low",
+     "page": 77
+    }
+   ],
+   "bird_pollinator": [
+    {
+     "type": "Fruit / Nectar",
+     "page": 76
+    }
+   ],
+   "landscape": [],
+   "table2_notes": [],
+   "thatta_survey": [],
+   "local_names": [
+    {
+     "text": "Ber",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "text": "Ber",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "text": "Ber",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "origin": [
+    {
+     "value": "Native",
+     "section": "Annex 2 (bird food and pollinators)",
+     "pages": [
+      76
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Annex 3 (saline and waterlogged soils)",
+     "pages": [
+      77
+     ]
+    },
+    {
+     "value": "Native",
+     "section": "Sindh zone tables",
+     "pages": [
+      46,
+      47,
+      48
+     ]
+    }
+   ],
+   "id": "ziziphus-mauritiana"
+  }
+ ],
+ "survey_plants": [
+  {
+   "plant": "Sueda fruticosa",
+   "soil_ec_ds_m": 14.0,
+   "soil_ph": 7.9,
+   "soil_om_pct": 0.94,
+   "page": 4
+  },
+  {
+   "plant": "Ceriops candoleana",
+   "soil_ec_ds_m": 9.8,
+   "soil_ph": 8.0,
+   "soil_om_pct": 0.82,
+   "page": 4
+  },
+  {
+   "plant": "Cynodon dactylon",
+   "soil_ec_ds_m": 12.4,
+   "soil_ph": 7.5,
+   "soil_om_pct": 0.89,
+   "page": 4
+  },
+  {
+   "plant": "Chenopodium album",
+   "soil_ec_ds_m": 9.0,
+   "soil_ph": 7.7,
+   "soil_om_pct": 0.85,
+   "page": 4
+  }
+ ],
+ "skipped_rows": [
+  "Bougainvillea sp. (Urban landscaping tables, p.74)",
+  "Nyctanthes arbor- tristis (Urban landscaping tables, p.72)",
+  "Pistacia chinensis ssp. Integerrima (Urban landscaping tables, p.73)",
+  "Sapium sebiferum Senegalia modesta (Annex 2 (bird food and pollinators), p.76)"
+ ]
+}

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Assistant - Tree Plantation</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<style>
+:root{--bg:#1c1814;--nav:#08382a;--panel:#26201a;--bub:#6b5a43;--ink:#f3ece1;--mute:#c8bba8;--acc:#5be37d;--btn:#16845f;--line:#4a3d2f;--warn:#f2c06b;--bad:#f2a28d}
+*{box-sizing:border-box}
+body{margin:0;height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--ink);font:15px/1.55 "Segoe UI",system-ui,sans-serif}
+nav{background:var(--nav);display:flex;align-items:center;gap:4px;padding:12px 28px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;margin-right:22px;color:#fff;text-decoration:none}
+.brand svg{width:26px;height:26px}
+nav a.tab{color:#d6efe3;text-decoration:none;padding:7px 13px;border-radius:9px}
+nav a.tab.on{background:rgba(255,255,255,.16);color:#fff}
+nav .sp{flex:1}
+button{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:9px 16px;background:var(--btn);color:#fff}
+button.ghost{background:transparent;border:1px solid #8a7b66;color:var(--ink)}
+button:disabled{opacity:.6;cursor:wait}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.wrap{flex:1;min-height:0;display:grid;grid-template-columns:260px 1fr;gap:16px;padding:16px 28px 20px;max-width:1240px;width:100%;margin:0 auto}
+.side{background:var(--panel);border-radius:14px;padding:12px;overflow:auto}
+.side .new{width:100%}
+.row{display:flex;align-items:center;gap:4px;margin-top:6px;border-radius:8px}
+.row.on{background:#3a3026}
+.row .t{flex:1;min-width:0;text-align:left;background:transparent;color:var(--ink);padding:8px 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .d{background:transparent;color:var(--mute);padding:6px 9px}
+.panel{display:flex;flex-direction:column;min-height:0;background:var(--panel);border-radius:14px}
+#msgs{flex:1;overflow:auto;padding:20px;display:flex;flex-direction:column;gap:14px}
+.m{max-width:80ch;padding:13px 17px;border-radius:16px;white-space:pre-wrap;overflow-wrap:anywhere}
+.m.user{align-self:flex-end;background:var(--btn)}
+.m.bot{align-self:flex-start;background:var(--bub)}
+.tag{display:inline-block;font-size:12.5px;padding:2px 10px;border-radius:99px;margin-bottom:8px;background:#2f6f4f}
+.tag.partial{background:#8a6a1f}.tag.unavailable{background:#7a3b2e}
+.src{display:inline-block;font-size:12.5px;background:#3a3026;border-radius:8px;padding:2px 9px;margin:10px 6px 0 0}
+.warn{font-size:13px;color:var(--warn);margin-top:10px;white-space:normal}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chips button{background:#3a3026;border:1px solid var(--line);font-size:14px}
+form{display:flex;gap:10px;padding:14px;border-top:1px solid var(--line)}
+form input{flex:1;padding:12px 15px;border-radius:12px;border:1px solid #6d5f4c;background:var(--bg);color:var(--ink);font:inherit}
+.hint{color:var(--mute);font-size:13px;padding:0 16px 12px}
+.err{color:var(--bad)}
+@media(max-width:820px){.wrap{grid-template-columns:1fr;padding:12px}.side{max-height:150px}body{height:auto;min-height:100vh}#msgs{max-height:62vh}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <a class="brand" href="home.html"><svg viewBox="0 0 24 24" fill="none" stroke="#5be37d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7z"/></svg>Tree Plantation</a>
+  <a class="tab" href="home.html">Home</a>
+  <a class="tab on" href="assistant.html" aria-current="page">AI Assistant</a>
+  <a class="tab" href="map.html">Map Explorer</a>
+  <a class="tab" href="species.html">Tree Species</a>
+  <a class="tab" href="sources.html">Knowledge Sources</a>
+  <a class="tab" href="about.html">About</a>
+  <span class="sp"></span>
+  <button class="ghost" id="signout" type="button">Sign out</button>
+</nav>
+
+<div class="wrap">
+  <aside class="side" aria-label="Chat history">
+    <button class="new" id="newchat" type="button">New chat</button>
+    <div id="list"></div>
+  </aside>
+  <section class="panel">
+    <div id="msgs" aria-live="polite"></div>
+    <form id="askform">
+      <input id="q" maxlength="500" autocomplete="off" placeholder="Ask about a species, soil or plantation practice in Thatta..." aria-label="Your question">
+      <button id="send" type="submit">Ask</button>
+    </form>
+    <div class="hint">Answers use only the knowledge sources. Check the cited page before you plant.</div>
+  </section>
+</div>
+
+<script>
+
+const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
+const API = "http://127.0.0.1:8000";
+const LOGIN_PAGE = "login.html";
+
+const $ = s => document.querySelector(s);
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const TAGS = { answer: "Evidence-backed", partial: "Partial evidence", unavailable: "Evidence unavailable" };
+const EXAMPLES = ["Which trees have high salinity tolerance?", "Is Shisham suitable for Thatta?", "What is the soil EC in Thatta?"];
+
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let token = null, convId = null, busy = false;
+
+async function api(path, opt = {}) {
+  let r;
+  try { r = await fetch(API + path, { ...opt, headers: { "Content-Type": "application/json", Authorization: "Bearer " + token } }); }
+  catch (e) { throw new Error("The server is not reachable. Start it with: py -m uvicorn main:app --reload"); }
+  const d = await r.json().catch(() => ({}));
+  if (r.status === 401) { location.href = LOGIN_PAGE; throw new Error("Please sign in again."); }
+  if (!r.ok) throw new Error((d.detail && d.detail.message) || "Request failed (" + r.status + ")");
+  return d;
+}
+
+function addMsg(m) {
+  const d = document.createElement("div");
+  if (m.role === "user") { d.className = "m user"; d.textContent = m.content; }
+  else {
+    d.className = "m bot";
+    const tag = m.answer_type ? `<span class="tag ${esc(m.answer_type)}">${esc(TAGS[m.answer_type] || m.answer_type)}</span><br>` : "";
+    const src = (m.sources || []).map(s => `<span class="src">[${s.number}] ${esc(s.source.replace(".pdf", ""))}, p.${s.page}</span>`).join("");
+    const serious = (m.warnings || []).filter(w => w.severity === "serious").map(w => esc(w.message)).join(" ");
+    const bad = m.reliable === false ? `<div class="warn">This answer did not pass every automatic check. ${serious}</div>` : "";
+    d.innerHTML = tag + esc(m.content) + (src ? `<div>${src}</div>` : "") + bad;
+  }
+  $("#msgs").appendChild(d); $("#msgs").scrollTop = 1e9;
+  return d;
+}
+
+function showEmpty() {
+  $("#msgs").innerHTML = `<div class="m bot">Ask a question about trees and soil in Thatta. Try one of these:<div class="chips">${EXAMPLES.map(e => `<button type="button" class="ex">${esc(e)}</button>`).join("")}</div></div>`;
+  document.querySelectorAll(".ex").forEach(b => b.onclick = () => { $("#q").value = b.textContent; send(); });
+}
+
+async function loadList() {
+  try {
+    const rows = await api("/conversations");
+    $("#list").innerHTML = rows.length ? rows.map(r => `<div class="row${r.id === convId ? " on" : ""}"><button class="t" data-id="${esc(r.id)}" title="${esc(r.title)}">${esc(r.title)}</button><button class="d" data-del="${esc(r.id)}" aria-label="Delete chat">x</button></div>`).join("") : `<p style="color:var(--mute);font-size:13px">No chats yet.</p>`;
+    document.querySelectorAll(".t").forEach(b => b.onclick = () => openChat(b.dataset.id));
+    document.querySelectorAll(".d").forEach(b => b.onclick = () => removeChat(b.dataset.del));
+  } catch (e) { $("#list").innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+}
+
+async function openChat(id) {
+  convId = id; $("#msgs").innerHTML = ""; loadList();
+  try { (await api(`/conversations/${id}/messages`)).forEach(addMsg); }
+  catch (e) { addMsg({ role: "assistant", content: e.message, answer_type: "unavailable" }); }
+}
+
+async function removeChat(id) {
+  if (!confirm("Delete this chat?")) return;
+  try { await api(`/conversations/${id}`, { method: "DELETE" }); } catch (e) { return alert(e.message); }
+  if (id === convId) { convId = null; showEmpty(); }
+  loadList();
+}
+
+async function send() {
+  const q = $("#q").value.trim();
+  if (!q || busy) return;
+  busy = true; $("#send").disabled = true; $("#q").value = "";
+  if (!convId) $("#msgs").innerHTML = "";
+  addMsg({ role: "user", content: q });
+  const wait = addMsg({ role: "assistant", content: "Searching the documents..." });
+  try {
+    const r = await api("/chat", { method: "POST", body: JSON.stringify({ question: q, conversation_id: convId }) });
+    wait.remove();
+    const isNew = !convId; convId = r.conversation_id;
+    addMsg({ role: "assistant", content: r.answer, answer_type: r.answer_type, sources: r.sources, warnings: r.warnings, reliable: r.reliable });
+    if (!r.saved) addMsg({ role: "assistant", content: "This answer could not be saved to your history." });
+    if (isNew || !r.saved) loadList();
+  } catch (e) { wait.remove(); addMsg({ role: "assistant", content: e.message, answer_type: "unavailable" }); }
+  busy = false; $("#send").disabled = false; $("#q").focus();
+}
+
+$("#newchat").onclick = () => { convId = null; showEmpty(); loadList(); $("#q").focus(); };
+$("#askform").onsubmit = e => { e.preventDefault(); send(); };
+$("#signout").onclick = async () => { await sb.auth.signOut(); location.href = LOGIN_PAGE; };
+
+(async () => {
+  if (SUPABASE_URL.startsWith("PASTE")) { $("#msgs").innerHTML = `<div class="m bot err">Set SUPABASE_URL and SUPABASE_ANON_KEY at the top of this file first.</div>`; return; }
+  const { data } = await sb.auth.getSession();
+  if (!data.session) { location.href = LOGIN_PAGE; return; }
+  token = data.session.access_token;
+  sb.auth.onAuthStateChange((_e, s) => { if (s) token = s.access_token; });
+  showEmpty(); loadList();
+  // A question can arrive from the Map Explorer (?q=...). It is only filled in: the person presses Ask.
+  const prefill = new URLSearchParams(location.search).get("q");
+  if (prefill) { $("#q").value = prefill.slice(0, 500); $("#q").focus(); }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "question": "Which Ficus species are listed in the guideline's urban landscaping tables?",
+    "label": "answerable",
+    "top_score": 0.60766321,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.1,
+        "first_hit": 3
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p65",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p16",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p63",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p64",
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p6"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What share of flowering plants and human food crops depends on pollinators, and which animals count as pollinators?",
+    "label": "answerable",
+    "top_score": 0.64153469,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p76",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p13",
+      "silvo_ecological_zones_2023.pdf p6",
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p74"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "In a roadside plantation, which trees should be planted in the outer row and which in the inner row?",
+    "label": "answerable",
+    "top_score": 0.74167407,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p71",
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p67",
+      "silvo_ecological_zones_2023.pdf p63",
+      "silvo_ecological_zones_2023.pdf p65",
+      "silvo_ecological_zones_2023.pdf p6"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which tree species are listed in the guideline as providing both fruit and nectar for birds and pollinators?",
+    "label": "answerable",
+    "top_score": 0.7356416,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.14285714285714285,
+        "precision": 0.1,
+        "first_hit": 7
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.1,
+        "first_hit": 2
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p76",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p6",
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p73",
+      "silvo_ecological_zones_2023.pdf p13"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Which species in the urban landscaping tables are listed as suitable for coastal areas?",
+    "label": "answerable",
+    "top_score": 0.52025259,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.125,
+        "precision": 0.1,
+        "first_hit": 8
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.1,
+        "first_hit": 3
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.2,
+        "precision": 0.2,
+        "first_hit": 5
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p73",
+      "silvo_ecological_zones_2023.pdf p72",
+      "silvo_ecological_zones_2023.pdf p16",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p63",
+      "silvo_ecological_zones_2023.pdf p5",
+      "silvo_ecological_zones_2023.pdf p17",
+      "silvo_ecological_zones_2023.pdf p64",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p47"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "By how much does stormwater runoff fall for every 5 percent of tree cover, and by how much does ozone fall for every 10 percent increase in urban tree canopy cover?",
+    "label": "answerable",
+    "top_score": 0.89181101,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p16",
+      "silvo_ecological_zones_2023.pdf p6",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "silvo_ecological_zones_2023.pdf p63",
+      "silvo_ecological_zones_2023.pdf p6",
+      "silvo_ecological_zones_2023.pdf p16",
+      "silvo_ecological_zones_2023.pdf p16",
+      "silvo_ecological_zones_2023.pdf p16",
+      "silvo_ecological_zones_2023.pdf p64",
+      "silvo_ecological_zones_2023.pdf p66"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What was the range, average and maximum sodium (Na+) concentration in the halophytes collected from Thatta, and in which species was it highest and lowest?",
+    "label": "answerable",
+    "top_score": 0.87147486,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.1,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.2,
+        "first_hit": 2
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p4"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What were the range and average of potassium (K+) in the halophytes collected from Thatta, and which species had the highest and lowest values?",
+    "label": "answerable",
+    "top_score": 0.83440691,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.2,
+        "precision": 0.5,
+        "first_hit": 5
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.3,
+        "first_hit": 2
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.3333333333333333,
+        "precision": 0.4,
+        "first_hit": 3
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p3"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What was the range and average of soluble calcium (Ca2+) in the soils of the District Thatta halophyte survey, and in which plant's soil was it highest?",
+    "label": "answerable",
+    "top_score": 0.80563217,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p3"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Under what temperature and relative humidity were the Thar desert plant experiments conducted?",
+    "label": "answerable",
+    "top_score": 0.86153823,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.7,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p1"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "How did increasing NaCl salinity change the sodium and potassium concentrations in the shoot dry matter of the four Thar species?",
+    "label": "answerable",
+    "top_score": 0.79310596,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.6,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.5,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.6,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.6,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p3",
+      "thar_salinity_drought_rajpar_2018.pdf p1",
+      "thar_salinity_drought_rajpar_2018.pdf p4",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2",
+      "thar_salinity_drought_rajpar_2018.pdf p2"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What does the guideline say about planting trees under overhead utility lines?",
+    "label": "answerable",
+    "top_score": 0.68594944,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.2,
+        "first_hit": 2
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.5,
+        "precision": 0.3,
+        "first_hit": 2
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p71",
+      "silvo_ecological_zones_2023.pdf p71",
+      "silvo_ecological_zones_2023.pdf p63",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p16",
+      "silvo_ecological_zones_2023.pdf p74",
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p15",
+      "silvo_ecological_zones_2023.pdf p16"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "How much salt can the halophytes of Thatta remove from the soil, and which species does it best?",
+    "label": "partial",
+    "top_score": 0.72095805,
+    "scores": {
+      "dense": {
+        "recall": 0.0,
+        "hit": 0.0,
+        "mrr": 0.0,
+        "precision": 0.0,
+        "first_hit": null
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p3",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p5"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "How were the soil and plant samples analyzed in the District Thatta halophyte survey, and what was the soil texture of the sites?",
+    "label": "partial",
+    "top_score": 0.78398848,
+    "scores": {
+      "dense": {
+        "recall": 0.0,
+        "hit": 0.0,
+        "mrr": 0.0,
+        "precision": 0.0,
+        "first_hit": null
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 0.2,
+        "precision": 0.2,
+        "first_hit": 5
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.2,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p2",
+      "thatta_halophytes_kaleri_2017.pdf p5",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p1",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4",
+      "thatta_halophytes_kaleri_2017.pdf p4"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Is Conocarpus suitable for Thatta?",
+    "label": "partial",
+    "top_score": 0.24220563,
+    "scores": {
+      "dense": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      },
+      "bm25": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.3,
+        "first_hit": 1
+      },
+      "hybrid+rerank": {
+        "recall": 1.0,
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision": 0.4,
+        "first_hit": 1
+      }
+    },
+    "retrieved": [
+      "silvo_ecological_zones_2023.pdf p47",
+      "silvo_ecological_zones_2023.pdf p48",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p14",
+      "silvo_ecological_zones_2023.pdf p76",
+      "silvo_ecological_zones_2023.pdf p65",
+      "silvo_ecological_zones_2023.pdf p64",
+      "silvo_ecological_zones_2023.pdf p71",
+      "silvo_ecological_zones_2023.pdf p46",
+      "silvo_ecological_zones_2023.pdf p72"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "How deep was the groundwater table at the sampling sites of the District Thatta halophyte survey?",
+    "label": "unanswerable",
+    "top_score": 0.37113661
+  },
+  {
+    "id": 17,
+    "question": "Which soil amendment, such as gypsum or fertilizer, was applied to the soils in the District Thatta halophyte survey?",
+    "label": "unanswerable",
+    "top_score": 0.45277786
+  },
+  {
+    "id": 18,
+    "question": "Which statistical test was used in the District Thatta halophyte survey, and were the differences between species significant?",
+    "label": "unanswerable",
+    "top_score": 0.61045349
+  },
+  {
+    "id": 19,
+    "question": "What were the temperature and rainfall in District Thatta during the halophyte survey?",
+    "label": "unanswerable",
+    "top_score": 0.45423004
+  },
+  {
+    "id": 20,
+    "question": "What was the Cation Exchange Capacity (CEC) of the soils in the District Thatta halophyte survey?",
+    "label": "unanswerable",
+    "top_score": 0.69264197
+  }
+]

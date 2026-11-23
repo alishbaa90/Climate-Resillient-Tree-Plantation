@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About - Tree Plantation</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<style>
+:root{--bg:#1c1814;--nav:#08382a;--panel:#26201a;--ink:#f3ece1;--mute:#c8bba8;--acc:#5be37d;--btn:#16845f;--line:#4a3d2f}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--ink);font:15px/1.6 "Segoe UI",system-ui,sans-serif}
+nav{background:var(--nav);display:flex;align-items:center;gap:4px;padding:12px 28px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;margin-right:22px;color:#fff;text-decoration:none}
+.brand svg{width:26px;height:26px}
+nav a.tab{color:#d6efe3;text-decoration:none;padding:7px 13px;border-radius:9px}
+nav a.tab.on{background:rgba(255,255,255,.16);color:#fff}
+nav .sp{flex:1}
+button{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:9px 16px;background:var(--btn);color:#fff}
+button.ghost{background:transparent;border:1px solid #8a7b66;color:var(--ink)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+main{flex:1;max-width:980px;width:100%;margin:0 auto;padding:22px 28px 36px}
+h1{margin:0 0 6px;font-size:28px}
+h2{margin:0 0 6px;font-size:19px;color:var(--acc)}
+.lead{color:var(--mute);margin:0 0 20px;max-width:70ch}
+section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+section p{margin:0 0 8px}
+section ul,section ol{margin:6px 0 0;padding-left:20px}
+section li{margin:6px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.mini{background:#2b251e;border-radius:12px;padding:12px 14px}
+.mini b{display:block;margin-bottom:2px}
+.note{font-size:13px;color:var(--mute)}
+@media(max-width:700px){main{padding:14px}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <a class="brand" href="home.html"><svg viewBox="0 0 24 24" fill="none" stroke="#5be37d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7z"/></svg>Tree Plantation</a>
+  <a class="tab" href="home.html">Home</a>
+  <a class="tab" href="assistant.html">AI Assistant</a>
+  <a class="tab" href="map.html">Map Explorer</a>
+  <a class="tab" href="species.html">Tree Species</a>
+  <a class="tab" href="sources.html">Knowledge Sources</a>
+  <a class="tab on" href="about.html" aria-current="page">About</a>
+  <span class="sp"></span>
+  <button class="ghost" id="signout" type="button">Sign out</button>
+</nav>
+
+<main>
+  <h1>About</h1>
+  <p class="lead">An evidence-grounded assistant for tree planting in Thatta, Sindh. It answers only from a small set of documents, shows the page behind every claim, and says so when the documents do not answer the question.</p>
+
+  <section>
+    <h2>How an answer is made</h2>
+    <ol>
+      <li><b>Search.</b> The question is matched against the documents by meaning and by keywords, and the two result lists are combined and re-ranked.</li>
+      <li><b>Evidence check.</b> If no passage is relevant enough, the assistant stops and answers "Evidence unavailable". The language model is not called with empty evidence.</li>
+      <li><b>Answer from passages.</b> A language model writes the answer using only the retrieved passages, with a citation for every claim.</li>
+      <li><b>Automatic checks.</b> The answer is checked for missing citations, mixed answer types and misspelled scientific names. Table footnotes and the kind of each source (survey or pot experiment) are added by the program, not by the model.</li>
+    </ol>
+    <p class="note">The embedding, re-ranking and language models are pre-trained models that this project connects. No model was trained here.</p>
+  </section>
+
+  <section>
+    <h2>The pages of this app</h2>
+    <div class="grid">
+      <div class="mini"><b>AI Assistant</b>Questions and answers with source chips. Each answer is labelled Evidence-backed, Partial evidence or Evidence unavailable.</div>
+      <div class="mini"><b>Map Explorer</b>Click a point inside the district boundary to see estimated climate and topsoil. These values are not sent to the assistant.</div>
+      <div class="mini"><b>Tree Species</b>Profiles copied straight from the document tables with their page numbers. No language model is involved, and missing facts are shown as missing.</div>
+      <div class="mini"><b>Knowledge Sources</b>The three documents behind the answers and what they do and do not say.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Limits you should know</h2>
+    <ul>
+      <li>Check the cited page before you plant. This is not professional forestry or soil advice.</li>
+      <li>A list in an answer can be incomplete when it is drawn from a long table. Open the cited page to see the full table.</li>
+      <li>Map values are gridded estimates, not field measurements. Climate comes from a coarse grid (about 50 km) and soil from a 250 m map. Where the exact soil pixel has no data, the nearest valid pixel within about 300 m is used and the distance is shown.</li>
+      <li>Soil salinity (EC) is not available from the map data. Ask the assistant about salinity: it answers only from the documents.</li>
+      <li>The national guideline is not specific to Thatta, and it does not say which zone Thatta belongs to. Annex 3 salinity levels (Low, Medium, High) have no numeric definition, and a Low level does not mean a species is unsuitable.</li>
+      <li>The district boundary is the Thatta polygon from geoBoundaries (ADM2). District boundaries have changed over time, so check that it matches the area you need.</li>
+      <li>Retrieval and answers were tuned on a 45-question development set whose questions were written while looking at the system's output. On a separate 20-question held-out set, 16 passed the pre-written checks. The misses were two incomplete list answers, one question refused although the documents partly answer it, and one case where the checker, not the assistant, was wrong. Twenty questions are too few for a precise accuracy figure.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Built with and data credits</h2>
+    <p>Jina embeddings and re-ranker, Qdrant vector search, a Groq-hosted language model, FastAPI, Supabase (login and chat history) and Leaflet.</p>
+    <p>Map data: NASA POWER (climate averages), ISRIC SoilGrids (topsoil), geoBoundaries (district boundary) and OpenStreetMap contributors (base map).</p>
+  </section>
+</main>
+
+<script>
+const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
+const LOGIN_PAGE = "login.html";
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+document.getElementById("signout").onclick = async () => { await sb.auth.signOut(); location.href = LOGIN_PAGE; };
+(async () => {
+  const { data } = await sb.auth.getSession();
+  if (!data.session) location.href = LOGIN_PAGE;
+})();
+</script>
+</body>
+</html>

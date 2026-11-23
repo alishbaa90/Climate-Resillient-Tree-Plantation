@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tree Species - Tree Plantation</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<style>
+:root{--bg:#1c1814;--nav:#08382a;--panel:#26201a;--bub:#6b5a43;--ink:#f3ece1;--mute:#c8bba8;--acc:#5be37d;--btn:#16845f;--line:#4a3d2f;--warn:#f2c06b;--bad:#f2a28d}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--ink);font:15px/1.55 "Segoe UI",system-ui,sans-serif}
+nav{background:var(--nav);display:flex;align-items:center;gap:4px;padding:12px 28px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;margin-right:22px;color:#fff;text-decoration:none}
+.brand svg{width:26px;height:26px}
+nav a.tab{color:#d6efe3;text-decoration:none;padding:7px 13px;border-radius:9px}
+nav a.tab.on{background:rgba(255,255,255,.16);color:#fff}
+nav .sp{flex:1}
+button{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:9px 16px;background:var(--btn);color:#fff}
+button.ghost{background:transparent;border:1px solid #8a7b66;color:var(--ink)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+main{flex:1;max-width:1240px;width:100%;margin:0 auto;padding:18px 28px 28px}
+h1{margin:0 0 4px;font-size:26px}
+.lead{color:var(--mute);margin:0 0 6px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.tools input,.tools select{padding:10px 14px;border-radius:12px;border:1px solid #6d5f4c;background:var(--panel);color:var(--ink);font:inherit}
+.tools input{flex:1;min-width:220px}
+.count{color:var(--mute);font-size:13px;margin-bottom:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;overflow:hidden}
+/* The photo box has a fixed height. The image is taken out of the layout (absolute) and cropped to the box. */
+.photo{position:relative;height:150px;margin:-14px -16px 12px;background:#2b251e;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.credit{position:absolute;right:6px;bottom:6px;font-size:11px;background:rgba(0,0,0,.6);color:#fff;padding:1px 8px;border-radius:99px;text-decoration:none}
+.title{margin:0;font-size:20px;line-height:1.3}
+.title.latin{font-style:italic}
+.title.urdu{font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq","Urdu Typesetting","Segoe UI",serif;font-size:26px;line-height:1.9;text-align:right}
+.sci{font-style:italic;color:var(--mute);font-size:14.5px}
+.names{color:var(--mute);font-size:13.5px;margin:2px 0 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 8px}
+.chip{font-size:12.5px;padding:2px 10px;border-radius:99px;background:#3a3026}
+/* Low, Medium and High use one neutral blue family on purpose: a Low level is not "bad" or "not suitable". */
+.chip.High{background:#2b6a78}.chip.Medium{background:#3b5a6b}.chip.Low{background:#4a5560}
+.chip.none{background:transparent;border:1px dashed var(--line);color:var(--mute)}
+details summary{cursor:pointer;color:var(--acc);font-size:14px}
+.sec{margin-top:12px}
+.sec h3{margin:0 0 4px;font-size:13.5px;color:var(--acc)}
+.sec ul{margin:0;padding-left:18px;font-size:14px}
+.sec li{margin:3px 0}
+.pg{color:var(--mute);font-size:12.5px}
+.none-note{color:var(--mute);font-size:13.5px;font-style:italic}
+.note{font-size:12.5px;color:var(--mute);margin:4px 0 0}
+.msg{margin:14px 0;color:var(--warn)}.msg.err{color:var(--bad)}
+.extra{margin-top:24px}
+.extra h2{font-size:18px;margin:0 0 4px}
+@media(max-width:700px){main{padding:12px}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <a class="brand" href="home.html"><svg viewBox="0 0 24 24" fill="none" stroke="#5be37d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7z"/></svg>Tree Plantation</a>
+  <a class="tab" href="home.html">Home</a>
+  <a class="tab" href="assistant.html">AI Assistant</a>
+  <a class="tab" href="map.html">Map Explorer</a>
+  <a class="tab on" href="species.html" aria-current="page">Tree Species</a>
+  <a class="tab" href="sources.html">Knowledge Sources</a>
+  <a class="tab" href="about.html">About</a>
+  <span class="sp"></span>
+  <button class="ghost" id="signout" type="button">Sign out</button>
+</nav>
+
+<main>
+  <h1>Tree Species</h1>
+  <p class="lead">Every profile reflects what the knowledge base contains. Gaps are shown, not filled in.</p>
+  <p class="note">The Sindh zone lists are province-level: the guideline does not say which zone Thatta belongs to. Native/Exotic and local names are shown per section because the sections do not always agree. Salinity levels are copied from Annex 3 as listed: a Low level does not mean a species is unsuitable. Photos come from Wikipedia and are matched by scientific name: they are not part of the knowledge base.</p>
+  <div class="tools">
+    <input id="search" type="search" placeholder="Search by local or scientific name..." aria-label="Search species">
+    <select id="filter" aria-label="Filter species">
+      <option value="all">All species</option>
+      <option value="salinity">Has a salinity level (Annex 3)</option>
+      <option value="zones">Listed in Sindh zone tables</option>
+      <option value="survey">Has Thatta field-survey soil data</option>
+    </select>
+  </div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div id="status"></div>
+  <div class="cards" id="cards"></div>
+  <div class="extra" id="extra"></div>
+</main>
+
+<script>
+const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
+const API = "http://127.0.0.1:8000";
+const LOGIN_PAGE = "login.html";
+const WIKI_SUMMARY = "https://en.wikipedia.org/api/rest_v1/page/summary/";
+
+const $ = s => document.querySelector(s);
+const esc = t => String(t ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const pages = arr => (arr || []).map(p => "p." + p).join(", ");
+const NONE = `<p class="none-note">Not listed in current evidence.</p>`;
+const LEAF = `<svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#5f7a68" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7z"/></svg>`;
+// Which section's local name is used first for the card title.
+const SECTION_ORDER = ["Sindh zone tables", "Annex 3 (saline and waterlogged soils)", "Annex 2 (bird food and pollinators)", "Urban landscaping tables", "Table 2 (valid names)"];
+const HIDE_NAMES = /^(not known|\(blank\))$/i;
+
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let token = null, data = null, urdu = {};
+
+async function api(path) {
+  let r;
+  try { r = await fetch(API + path, { headers: { Authorization: "Bearer " + token } }); }
+  catch (e) { throw new Error("The server is not reachable. Start it with: py -m uvicorn main:app"); }
+  const d = await r.json().catch(() => ({}));
+  if (r.status === 401) { location.href = LOGIN_PAGE; throw new Error("Please sign in again."); }
+  if (!r.ok) throw new Error((d.detail && d.detail.message) || "Request failed (" + r.status + ")");
+  return d;
+}
+
+// Optional file frontend/urdu_names.json: { "Dalbergia sissoo": "..." }. It is not part of the knowledge base.
+async function loadUrduNames() {
+  try { const r = await fetch("urdu_names.json"); if (r.ok) return await r.json(); } catch (e) { /* the file is optional */ }
+  return {};
+}
+
+// ---- photos (Wikipedia, matched by scientific name, loaded when the card scrolls into view) ----
+async function findPhoto(name) {
+  const key = "photo:" + name;
+  try { const cached = localStorage.getItem(key); if (cached !== null) return JSON.parse(cached); } catch (e) { /* storage may be blocked */ }
+  let result = null;
+  try {
+    const r = await fetch(WIKI_SUMMARY + encodeURIComponent(name.replace(/ /g, "_")));
+    if (r.ok) {
+      const d = await r.json();
+      if (d.type === "standard" && d.thumbnail && d.thumbnail.source) {
+        result = { src: d.thumbnail.source, page: d.content_urls && d.content_urls.desktop && d.content_urls.desktop.page };
+      }
+    }
+  } catch (e) { return null; } // network problem: do not remember it as "no photo"
+  try { localStorage.setItem(key, JSON.stringify(result)); } catch (e) { /* ignore */ }
+  return result;
+}
+
+async function loadPhoto(box) {
+  box.classList.add("done");
+  const photo = await findPhoto(box.dataset.name);
+  if (!photo) return; // the leaf placeholder stays
+  const img = new Image();
+  img.alt = box.dataset.name;
+  img.onload = () => {
+    box.innerHTML = "";
+    box.appendChild(img);
+    if (photo.page) {
+      const a = document.createElement("a");
+      a.className = "credit"; a.href = photo.page; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Photo: Wikipedia";
+      box.appendChild(a);
+    }
+  };
+  img.src = photo.src;
+}
+
+const observer = "IntersectionObserver" in window
+  ? new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { observer.unobserve(e.target); loadPhoto(e.target); } }), { rootMargin: "300px" })
+  : null;
+
+function watchPhotos() {
+  document.querySelectorAll(".photo:not(.done)").forEach(el => observer ? observer.observe(el) : loadPhoto(el));
+}
+
+const photoBox = name => `<div class="photo" data-name="${esc(name)}">${LEAF}</div>`;
+
+// ---- names ----
+// Individual local names from all sections, without repeats (capital letters are ignored when comparing).
+function orderedNames(s) {
+  const entries = [...s.local_names].sort((a, b) => SECTION_ORDER.indexOf(a.section) - SECTION_ORDER.indexOf(b.section));
+  const seen = new Set(), out = [];
+  for (const entry of entries) {
+    for (const part of entry.text.split(/[,;]/)) {
+      const name = part.trim().replace(/\.$/, "");
+      const key = name.toLowerCase();
+      if (name && !HIDE_NAMES.test(name) && !seen.has(key)) { seen.add(key); out.push(name); }
+    }
+  }
+  return out;
+}
+
+function headline(s) {
+  const names = orderedNames(s);
+  if (urdu[s.scientific_name]) return { text: urdu[s.scientific_name], urdu: true, latin: false, others: names.slice(0, 3) };
+  if (names.length) return { text: names[0], urdu: false, latin: false, others: names.slice(1, 4) };
+  return { text: s.scientific_name, urdu: false, latin: true, others: [] };
+}
+
+const sec = (title, inner) => `<div class="sec"><h3>${esc(title)}</h3>${inner}</div>`;
+const list = items => items.length ? `<ul>${items.join("")}</ul>` : NONE;
+
+function details(s) {
+  const names = list(s.local_names.map(n => `<li>${esc(n.text)} <span class="pg">${esc(n.section)}, ${pages(n.pages)}</span></li>`));
+  const origin = list(s.origin.map(o => `<li>${esc(o.value)} <span class="pg">${esc(o.section)}, ${pages(o.pages)}</span></li>`));
+  const zones = list(s.sindh_zones.map(z => `<li>${esc(z.zone)}: ${esc(z.category)} (${esc(z.status)}) <span class="pg">${pages([z.page])}</span>` +
+    (z.footnote ? `<br><span class="pg">Footnote: ${esc(z.footnote)}</span>` : "") +
+    (z.listed_twice_in_source ? `<br><span class="pg">This row appears twice in the source table.</span>` : "") + `</li>`));
+  const salinity = s.salinity.length
+    ? list(s.salinity.map(x => `<li>${esc(x.level)} <span class="pg">${pages([x.page])}</span></li>`)) +
+      `<p class="note">Annex 3 lists species able to grow in saline and waterlogged soils. The levels (Low, Medium, High) are not defined in numbers.</p>`
+    : NONE;
+  const birds = list(s.bird_pollinator.map(x => `<li>${esc(x.type)} <span class="pg">${pages([x.page])}</span></li>`));
+  const landscape = list(s.landscape.map(x => `<li>${esc(x.description || "")}` +
+    (x.habitat ? `<br><span class="pg">Suitable habitat: ${esc(x.habitat)}</span>` : "") + ` <span class="pg">${pages([x.page])}</span></li>`));
+  const survey = s.thatta_survey.length
+    ? list(s.thatta_survey.map(x => `<li>${esc(x.plant)}: soil EC ${esc(x.soil_ec_ds_m)} dS/m, pH ${esc(x.soil_ph)}, organic matter ${esc(x.soil_om_pct)}% <span class="pg">${pages([x.page])}</span></li>`)) +
+      `<p class="note">Soil where this plant was collected in District Thatta (Kaleri et al., 2017). It is not a tolerance rating.</p>`
+    : NONE;
+  const synonyms = s.table2_notes.length ? sec("Names (Table 2)", list(s.table2_notes.map(x => `<li>${esc(x.text)} <span class="pg">${pages([x.page])}</span></li>`))) : "";
+  const urduName = urdu[s.scientific_name]
+    ? sec("Urdu name", `<p lang="ur" dir="rtl">${esc(urdu[s.scientific_name])}</p><p class="note">Added by the project owner. It is not from the knowledge-base documents.</p>`)
+    : "";
+  return urduName + sec("Local names (as written in the documents)", names) + sec("Native / Exotic", origin) + sec("Sindh zone listings", zones) +
+    sec("Salinity tolerance", salinity) + sec("Bird food and pollinators", birds) + sec("Urban landscaping", landscape) +
+    sec("Thatta field survey", survey) + synonyms;
+}
+
+function card(s) {
+  const h = headline(s);
+  const level = s.salinity.length ? s.salinity[0].level : null;
+  const chips = [
+    level ? `<span class="chip ${esc(level)}">Salinity: ${esc(level)}</span>` : `<span class="chip none">Salinity: not listed</span>`,
+    s.sindh_zones.length ? `<span class="chip">Sindh zones: ${s.sindh_zones.length}</span>` : `<span class="chip none">No Sindh zone listing</span>`,
+    s.thatta_survey.length ? `<span class="chip">Thatta survey</span>` : ""
+  ].join("");
+  const titleClass = "title" + (h.urdu ? " urdu" : "") + (h.latin ? " latin" : "");
+  return `<article class="card">${photoBox(s.scientific_name)}
+    <h2 class="${titleClass}"${h.urdu ? ' lang="ur" dir="rtl"' : ""}>${esc(h.text)}</h2>
+    ${h.latin ? "" : `<div class="sci">${esc(s.scientific_name)}</div>`}
+    ${h.others.length ? `<div class="names">${esc(h.others.join(" · "))}</div>` : ""}
+    <div class="chips">${chips}</div>
+    <details><summary>View details</summary>${details(s)}</details></article>`;
+}
+
+function matches(s, text, mode) {
+  if (mode === "salinity" && !s.salinity.length) return false;
+  if (mode === "zones" && !s.sindh_zones.length) return false;
+  if (mode === "survey" && !s.thatta_survey.length) return false;
+  if (!text) return true;
+  const hay = (s.scientific_name + " " + s.local_names.map(n => n.text).join(" ") + " " + (urdu[s.scientific_name] || "")).toLowerCase();
+  return hay.includes(text);
+}
+
+function render() {
+  if (observer) observer.disconnect();
+  const text = $("#search").value.trim().toLowerCase(), mode = $("#filter").value;
+  const shown = data.species.filter(s => matches(s, text, mode));
+  $("#count").textContent = `${shown.length} of ${data.species.length} species`;
+  $("#cards").innerHTML = shown.map(card).join("");
+  watchPhotos();
+}
+
+function renderExtra() {
+  if (!data.survey_plants.length) return;
+  $("#extra").innerHTML = `<h2>Other plants in the Thatta field survey</h2>
+    <p class="note">These plants are in the Kaleri et al. (2017) survey but have no species card from the guideline tables. Values are the soil where each plant was collected, not a tolerance rating.</p>
+    <div class="cards">${data.survey_plants.map(x => `<article class="card">${photoBox(x.plant.split("/")[0].trim())}<h2 class="title latin">${esc(x.plant)}</h2>
+      <p>Soil EC ${esc(x.soil_ec_ds_m)} dS/m, pH ${esc(x.soil_ph)}, organic matter ${esc(x.soil_om_pct)}% <span class="pg">${pages([x.page])}</span></p></article>`).join("")}</div>`;
+  watchPhotos();
+}
+
+$("#signout").onclick = async () => { await sb.auth.signOut(); location.href = LOGIN_PAGE; };
+$("#search").oninput = () => data && render();
+$("#filter").onchange = () => data && render();
+
+(async () => {
+  const { data: session } = await sb.auth.getSession();
+  if (!session.session) { location.href = LOGIN_PAGE; return; }
+  token = session.session.access_token;
+  sb.auth.onAuthStateChange((_e, s) => { if (s) token = s.access_token; });
+  try {
+    [data, urdu] = await Promise.all([api("/species"), loadUrduNames()]);
+    render(); renderExtra();
+  } catch (e) { $("#status").innerHTML = `<div class="msg err">${esc(e.message)}</div>`; }
+})();
+</script>
+</body>
+</html>

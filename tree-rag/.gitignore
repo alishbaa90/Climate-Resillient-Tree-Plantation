@@ -1,0 +1,20 @@
+
+.env
+.token
+*.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# copyrighted inputs: the app reads the knowledge base from Qdrant, so the PDFs are not needed to run it
+tree-rag/data/*.pdf
+
+# text dumps of the knowledge base made while checking the evaluation
+tree-rag/chunk_overview.txt
+tree-rag/chunk_tables.txt
+tree-rag/chunk_text.txt
+tree-rag/keyword_checks.txt
+
+*.zip

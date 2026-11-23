@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home - Tree Plantation</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<style>
+:root{--bg1:#0a4a37;--bg2:#0d5b43;--nav:#08382a;--ink:#f4fbf7;--mute:#b9dccc;--acc:#5be37d;--accInk:#06311f;--line:rgba(255,255,255,.18)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:var(--ink);font:16px/1.55 "Inter","Segoe UI",system-ui,sans-serif;background:linear-gradient(160deg,var(--bg1),var(--bg2))}
+a{color:inherit}
+
+/* navigation */
+nav{background:var(--nav);display:flex;align-items:center;gap:4px;padding:12px 28px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;margin-right:22px;text-decoration:none}
+.brand svg{width:26px;height:26px}
+nav a.tab{color:#d6efe3;text-decoration:none;padding:7px 13px;border-radius:9px}
+nav a.tab:hover{background:rgba(255,255,255,.08)}
+nav a.tab.on{background:rgba(255,255,255,.16);color:#fff}
+nav .sp{flex:1}
+.out{background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:9px;padding:7px 14px;font:inherit;cursor:pointer}
+
+/* hero */
+main{max-width:1180px;margin:0 auto;padding:56px 28px 28px;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+h1{font-size:clamp(36px,5.2vw,62px);line-height:1.05;margin:0 0 18px;font-weight:700;letter-spacing:-.02em}
+.lead{color:var(--mute);max-width:52ch;margin:0 0 28px;font-size:17px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:12px;text-decoration:none;font-weight:600}
+.btn.primary{background:var(--acc);color:var(--accInk)}
+.btn.ghost{border:1px solid var(--line);background:rgba(255,255,255,.04)}
+.btn:focus-visible,.tab:focus-visible,.out:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.note{margin:22px 0 0;font-size:13.5px;color:var(--mute)}
+
+/* right card */
+.card{background:rgba(255,255,255,.08);border:1px solid var(--line);border-radius:22px;padding:24px;backdrop-filter:blur(6px)}
+.card header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.card header b{font-weight:600}
+.tag{padding:5px 14px;border-radius:99px;border:1px solid rgba(91,227,125,.6);color:#bff5cd;font-size:14px}
+.steps{list-style:none;margin:0;padding:0}
+.steps li{display:grid;grid-template-columns:40px 1fr;gap:14px;position:relative;padding-bottom:20px}
+.steps li:last-child{padding-bottom:0}
+.steps li::before{content:"";position:absolute;left:19px;top:42px;bottom:2px;width:2px;background:var(--line)}
+.steps li:last-child::before{display:none}
+.ic{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.12)}
+.steps li:first-child .ic{background:var(--acc);color:var(--accInk)}
+.ic svg{width:20px;height:20px}
+.steps b{display:block;font-weight:600}
+.steps span{color:var(--mute);font-size:15px}
+
+@media(max-width:900px){main{grid-template-columns:1fr;padding-top:36px}nav{padding:12px 16px}}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <a class="brand" href="home.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#5be37d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-7 4 0 7 3 7 7z"/><path d="M12 14c0-4 3-7 7-7 0 4-3 7-7 7z"/></svg>
+    Tree Plantation
+  </a>
+  <a class="tab on" href="home.html" aria-current="page">Home</a>
+  <a class="tab" href="assistant.html">AI Assistant</a>
+  <a class="tab" href="map.html">Map Explorer</a>
+  <a class="tab" href="species.html">Tree Species</a>
+  <a class="tab" href="sources.html">Knowledge Sources</a>
+  <a class="tab" href="about.html">About</a>
+  <span class="sp"></span>
+  <button class="out" id="signout" type="button">Sign out</button>
+</nav>
+
+<main>
+  <section>
+    <h1>Make tree-planting decisions with local evidence.</h1>
+    <p class="lead">Ask about species, saline soil and plantation practice in Thatta, Sindh. Every answer shows the document and page it comes from, and the assistant tells you when the documents say nothing.</p>
+    <div class="btns">
+      <a class="btn primary" href="assistant.html">Ask the assistant</a>
+      <a class="btn ghost" href="sources.html">See the knowledge sources</a>
+    </div>
+    <p class="note">Recommendations are limited to the evidence currently available.</p>
+  </section>
+
+  <aside class="card" aria-label="How it works">
+    <header><b>A clearer way to decide</b><span class="tag">Thatta</span></header>
+    <ol class="steps">
+      <li>
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+        <div><b>Question asked</b><span>Ask in your own words, using local names like Shisham or Kikar if you like.</span></div>
+      </li>
+      <li>
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+        <div><b>Documents searched</b><span>The national guideline and field studies on Thatta and Thar are searched for the answer.</span></div>
+      </li>
+      <li>
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg></span>
+        <div><b>Evidence shown</b><span>Each answer links back to its source page, or says that evidence is unavailable.</span></div>
+      </li>
+    </ol>
+  </aside>
+</main>
+
+<script>
+// Same values as in login.html. Never use the service_role key here.
+const SUPABASE_URL = "https://ajasfbphhqhbibsybeyr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYXNmYnBoaHFoYmlic3liZXlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ3NjUwNDQsImV4cCI6MjExMDM0MTA0NH0.DhkVu9kyL_SOjPsvNlPFhTuqOCwxtuHGPoSw9pHHh20";
+const LOGIN_PAGE = "login.html";
+
+const configured = !SUPABASE_URL.startsWith("PASTE");
+const sb = configured ? supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+
+(async () => {
+  if (!sb) return; // not configured yet: show the page as a preview
+  const { data } = await sb.auth.getSession();
+  if (!data.session) location.href = LOGIN_PAGE; // only signed-in users see the app
+})();
+
+document.getElementById("signout").onclick = async () => {
+  if (sb) await sb.auth.signOut();
+  location.href = LOGIN_PAGE;
+};
+</script>
+</body>
+</html>
