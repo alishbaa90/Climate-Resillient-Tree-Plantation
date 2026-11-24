@@ -104,12 +104,9 @@ Written before looking at any system answer, with expectations taken from the PD
 - **5/5 unanswerable questions were refused** — all five by the LLM, none by the relevance gate
 - Retrieval on the 15 questions with gold pages: hybrid + rerank Recall@10 1.000, MRR 0.933 (dense only: MRR 0.655)
 
-| Miss | Cause |
-|---|---|
-| Q2 pollinators | Checker error: the answer was correct but used "one-third" with a hyphen, which the regex did not allow |
-| Q4 fruit and nectar | The right chunk reached the LLM, which left one species out of the list |
-| Q5 coastal | Both right chunks reached the LLM, which left one species out |
-| Q15 Conocarpus | False refusal: the right pages ranked 1 to 3, but the top score (0.242) was under the 0.32 gate, so the LLM was never called |
+The 4 failures were not caused by missing evidence: in all of them the right pages had been retrieved. One was a checker error, two were the model leaving a row out of a long table list, and one was the relevance gate refusing a short species-name question (top score 0.242, under the 0.32 gate).
+
+All questions, expectations and results are in `tree-rag/eval/` (`heldout_questions.json`, `heldout_expectations.json`, `heldout_results.json`).
 
 ---
 
